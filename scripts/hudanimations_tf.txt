@@ -206,10 +206,13 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			fgcolor		"0 225 255 175"	Linear 0.0 0.0
-
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	
+	//Animate PlayerStatusHealthValue			fgcolor		"128 225 128 175"	Linear 0.0 0.0
+	Animate HealthBuffBG		Alpha		"200"	Accel 0.0 0.2
+	Animate HealthBuffBG		Alpha		"200"	Accel 0.2 0.4
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -223,7 +226,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"TanLight"	Linear 0.0 0.0
+	Animate HealthBuffBG				Alpha	"0"			Accel 0.0 0.0
 }
 
 //===========================================
@@ -231,11 +234,13 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue		fgcolor		"255 128 128 255"	Linear 0.0 0.0
-	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+
+	//Animate PlayerStatusHealthValue		fgcolor		"255 128 128 255"	Linear 0.0 0.0
+	Animate HealthLowBG					Alpha	"200"		Accel 0.0 0.2
+	Animate HealthLowBG					Alpha	"0"			Accel 0.2 0.4
+	RunEvent HudHealthDyingPulseLoop			0.4
 }
 
 // call to loop HudHealthDyingPulse
@@ -246,7 +251,7 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	Animate PlayerStatusHealthValue			fgcolor		"TanLight"	Linear 0.0 0.0
+	Animate HealthLowBG		Alpha		"0"		Accel 0.0 0.0
 
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
@@ -256,13 +261,16 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	Animate AmmoInClip		fgcolor		"255 128 128 255"	Linear 0.0 0.0
-	Animate AmmoInReserve	fgcolor		"255 0 0 255"	Linear 0.0 0.0
-	Animate AmmoNoClip		fgcolor		"255 128 128 255"	Linear 0.0 0.0
+	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	//Animate AmmoInClip		fgcolor		"255 128 128 255"	Linear 0.0 0.0
+	//Animate AmmoInReserve	fgcolor		"255 128 128 255"	Linear 0.0 0.0
+	//Animate AmmoNoClip		fgcolor		"255 128 128 255"	Linear 0.0 0.0
+	Animate AmmoLowBG		Alpha		"200"				Accel 0.0 0.2
+	Animate AmmoLowBG		Alpha		"0"					Accel 0.2 0.4
+	
+	RunEvent HudLowAmmoPulseLoop	0.4
 }
 
 // call to loop HudLowAmmoPulse
@@ -273,9 +281,7 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	Animate AmmoInClip		fgcolor		"TanLight"	Linear 0.0 0.0
-	Animate AmmoInReserve	fgcolor		"ChillyHUD-Teal"	Linear 0.0 0.0
-	Animate AmmoNoClip		fgcolor		"TanLight"	Linear 0.0 0.0
+	Animate AmmoLowBG		Alpha		"0"					Accel 0.0 0.0
 
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
@@ -439,7 +445,7 @@ event HudMedicCharged
 	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"ChillyHUD-BrightGreen"	Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
@@ -456,8 +462,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"TanLight"			Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"ChillyHUD-BrightGreen"	Linear 0.0 0.0001
 }
 
 //====================================

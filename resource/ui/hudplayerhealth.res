@@ -66,6 +66,50 @@
 		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 	}
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"75"
+		"ypos"			"38"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"	
+		"fillcolor"		"ChillyHUD-TransparentBlack"		
+	}
+	"HealthBuffBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBuffBG"
+		"xpos"			"75"
+		"ypos"			"38"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"		
+		"fillcolor"		"ChillyHUD-BrightGreen"
+		"alpha"			"0"
+	}
+	"HealthLowBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthLowBG"
+		"xpos"			"75"
+		"ypos"			"38"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"		
+		"fillcolor"		"255 0 0 255"
+		"alpha"			"0"
+	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -73,7 +117,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"61"
 		"ypos"			"0"	[$WIN32]
-		"zpos"			"5"
+		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
@@ -90,7 +134,7 @@
 		"xpos"			"2"
 		"xpos_minmode"	"61"
 		"ypos"			"2"	[$WIN32]
-		"zpos"			"4"
+		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"

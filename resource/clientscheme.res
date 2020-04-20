@@ -24,8 +24,7 @@ Scheme
 		"ChillyHUD-TransparentBlack"	"0 0 0 128"
 		"ChillyHUD-Teal"				"0 170 127 255"
 		"ChillyHUD-BrightOrange"		"255 131 0 255"
-		"ChillyHUD-Green"				"0 255 0 255"
-		//"TanLight"					"235 226 202 255
+		"ChillyHUD-BrightGreen"			"0 255 128 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
