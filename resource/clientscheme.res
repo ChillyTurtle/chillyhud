@@ -18,6 +18,15 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// CHILLYHUD COLORS
+		"ChillyHUD-White"				"255 255 255 255"
+		"ChillyHUD-Black"				"0 0 0 255"
+		"ChillyHUD-TransparentBlack"	"0 0 0 128"
+		"ChillyHUD-Teal"				"0 170 127 255"
+		"ChillyHUD-BrightOrange"		"255 131 0 255"
+		"ChillyHUD-Green"				"0 255 0 255"
+		//"TanLight"					"235 226 202 255
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3019,6 +3028,8 @@ Scheme
 
 // CHILLYHUD FONTS
 		
+// LATO BOLD
+		
 		"Lato-Bold-HP"
 		{
 			"1"
@@ -3049,11 +3060,63 @@ Scheme
 			}
 		}
 		
+// LATO REGULAR
+		
 		"Lato-Regular-Meters"
 		{
 			"1"
 			{
 				"name"		"Lato Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+
+// CODE PRO LC
+
+		"CodeProLC-HPBig"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
+		"CodeProLC-HPSmall"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		"CodeProLC-AmmoReserve"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		"CodeProLC-Counter"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		"CodeProLC-Meters"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -5871,18 +5934,28 @@ Scheme
 		}	
 		"8" 
 		{
-			"font" "resource/Lato-Regular.ttf"
+			"font" "resource/fonts/Lato-Regular.ttf"
 			"name" "Lato Regular"
 		}	
 		"9" 
 		{
-			"font" "resource/Lato-Bold.ttf"
+			"font" "resource/fonts/Lato-Bold.ttf"
 			"name" "Lato Bold"
 		}	
 		"10" 
 		{
-			"font" "resource/Lato-Light.ttf"
+			"font" "resource/fonts/Lato-Light.ttf"
 			"name" "Lato Light"
+		}
+		"11" 
+		{
+			"font" "resource/fonts/CodeProLC.otf"
+			"name" "Code-Pro-LC"
+		}
+		"12" 
+		{
+			"font" "resource/fonts/CodeProBold.otf"
+			"name" "Code_Pro-Bold"
 		}
 	}
 }
