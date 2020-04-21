@@ -254,18 +254,11 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
+		"ypos"		"c40"
+		"wide"	 	"f0"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID

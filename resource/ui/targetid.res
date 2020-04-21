@@ -1,83 +1,88 @@
 "Resource/UI/TargetID.res"
 {
-	"TargetIDBG"
+	
+	"TargetBG"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"50"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+    "ControlName"         "ImagePanel"
+    "fieldName"           "TargetBG"
+    "xpos"                "0"				//3
+    "ypos"                "0"				//7
+    "zpos"                "-1"
+	"wide"					"999"	//
+    "tall"                "30"			//24
+    "visible"             "1"
+    "enabled"             "1"
+    "fillcolor"           "ChillyHUD-TransparentBlack"
 	}
-	"TargetIDBG_Spec_Blue"
+	"TargetIDTeamIndicator"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+    "ControlName"         "CTFImagePanel"
+    "fieldName"           "TargetIDBG"
+    "xpos"                "0"				//3
+    "ypos"                "30"				//7
+    "zpos"                "-1"
+	"wide"					"999"	//
+    "tall"                "5"			//24
+    "visible"             "1"
+    "enabled"             "1"
+	"image"				"../hud/color_panel_brown"
+	"scaleImage"		"1"
+	"teambg_1"			"../hud/color_panel_brown"
+	"teambg_2"			"../hud/color_panel_red"
+	"teambg_3"			"../hud/color_panel_blu"
+	
+	"src_corner_height"		"40"				// pixels inside the image
+	"src_corner_width"		"40"			
+	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+	"draw_corner_height" 	"0"	
+	}
+	"TargetIDBG_Spec_Blu"
+	{
+    "ControlName"         "ScalableImagePanel"
+    "fieldName"           "TargetIDBG_Spec_Blu"
+    "xpos"                "0"				//3
+    "ypos"                "30"				//7
+    "zpos"                "-1"
+	"wide"					"999"	//
+    "tall"                "5"			//24
+	"autoResize"			"0"
+	"pinCorner"				"0"
+    "visible"             "0"
+    "enabled"             "1"
+	"image"				"../hud/color_panel_blu"
+	"scaleImage"		"1"
+	
+	"src_corner_height"		"40"				// pixels inside the image
+	"src_corner_width"		"40"			
+	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+	"draw_corner_height" 	"0"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
-	}
+    "ControlName"         "ScalableImagePanel"
+    "fieldName"           "TargetIDBG_Spec_Red"
+    "xpos"                "0"				//3
+    "ypos"                "30"				//7
+    "zpos"                "-1"
+	"wide"					"999"	//
+    "tall"                "5"			//24
+	"autoResize"			"0"
+	"pinCorner"				"0"
+    "visible"             "0"
+    "enabled"             "1"
+	"image"				"../hud/color_panel_red"
+	"scaleImage"		"1"
 	
+	"src_corner_height"		"40"				// pixels inside the image
+	"src_corner_width"		"40"			
+	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+	"draw_corner_height" 	"0"	
+	}
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
+		"font"			"CodeProLC-Meters"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"5"
@@ -98,14 +103,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
-		"font_minmode"	"DefaultVerySmall"
+		"font"			"CodeProLC-Meters"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"15"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -124,12 +124,12 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
 		"xpos_minmode"	"0"
-		"ypos"			"2"
+		"ypos"			"0"
 		"ypos_minmode"	"0"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"	
+		"wide"			"40"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
@@ -141,10 +141,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"xpos_minmode"	"38"
+		"xpos"			"50"
 		"ypos"			"20"
-		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -159,9 +157,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
-		"xpos_minmode"	"30"
 		"ypos"			"20"
-		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -192,8 +188,8 @@
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
@@ -211,7 +207,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"ProgressOffWhite"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -226,7 +222,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"ProgressOffWhite"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 
@@ -235,7 +231,6 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -249,6 +244,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"fgcolor"		"TanLight"
 		}	
 	}
 	"AvatarImage"
