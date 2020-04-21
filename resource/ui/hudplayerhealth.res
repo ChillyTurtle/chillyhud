@@ -6,9 +6,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-275"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"c30"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"ypos"			"c50"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -125,7 +123,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CodeProLC-HPSmall"
-		"fgcolor"		"TanLight"	
+		"fgcolor"		"ChillyHUD-TanLight"	
 	}
 	"PlayerStatusHealthValueShadow"
 	{

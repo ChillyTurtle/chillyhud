@@ -69,7 +69,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CodeProLC-Counter"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ChillyHUD-TanLight"
 	}
 	"PlayerStatusPlayerLevel"
 	{

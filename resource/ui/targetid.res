@@ -207,7 +207,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"TanLight"
+			"drawcolor"		"ChillyHUD-TanLight"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -222,7 +222,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"TanLight"
+			"drawcolor"		"ChillyHUD-TanLight"
 			"scaleImage"	"1"
 		}
 
@@ -244,7 +244,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"ChillyHUD-TanLight"
 		}	
 	}
 	"AvatarImage"

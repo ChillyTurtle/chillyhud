@@ -39,7 +39,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CodeProLC-HPSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ChillyHUD-TanLight"
 	}
 	
 	"ChargeLabelShadow"
