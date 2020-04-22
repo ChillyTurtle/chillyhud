@@ -18,7 +18,7 @@
 		"enabled" "1"
 		"xpos"	"c25"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"c50"	[$WIN32]
+		"ypos"	"c60"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"wide"	"250"
 		"tall"	"120"
@@ -57,9 +57,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c116"	[$WIN32]
-		"wide"			"100"
+		"xpos"			"c-60"	[$WIN32]
+		"ypos"			"c126"	[$WIN32]
+		"wide"			"120"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c25"	[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"ypos"			"c60"	[$WIN32]
 		"wide"			"250"
 		"tall"			"120"
 	}
@@ -81,10 +81,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c104"	[$WIN32]
+		"xpos"			"c-60"	[$WIN32]
+		"ypos"			"c114"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -95,10 +95,10 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
+		"xpos"			"c-60"	[$WIN32]
 		"ypos"			"c92"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -236,9 +236,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c40"
+		"ypos"		"c30"
 		"wide"	 	"f0"
-		"tall"	 	"35"
+		"tall"	 	"30"
 		"priority"	"40"
 		"priority_lodef"	"5"
 	}
@@ -249,7 +249,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"c30"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -266,9 +266,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"c65"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"30"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -1007,9 +1007,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c69"	[$WIN32]
-		"wide"			"100"
+		"xpos"			"c-60"	[$WIN32]
+		"ypos"			"c79"	[$WIN32]
+		"wide"			"120"
 		"tall"			"50"
 	}	
 

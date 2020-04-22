@@ -9,7 +9,7 @@
     "ypos"                "0"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
-    "tall"                "30"			//24
+    "tall"                "25"			//24
     "visible"             "1"
     "enabled"             "1"
     "fillcolor"           "ChillyHUD-TransparentBlack"
@@ -19,7 +19,7 @@
     "ControlName"         "CTFImagePanel"
     "fieldName"           "TargetIDBG"
     "xpos"                "0"				//3
-    "ypos"                "30"				//7
+    "ypos"                "25"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
     "tall"                "5"			//24
@@ -41,7 +41,7 @@
     "ControlName"         "ScalableImagePanel"
     "fieldName"           "TargetIDBG_Spec_Blu"
     "xpos"                "0"				//3
-    "ypos"                "30"				//7
+    "ypos"                "25"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
     "tall"                "5"			//24
@@ -62,7 +62,7 @@
     "ControlName"         "ScalableImagePanel"
     "fieldName"           "TargetIDBG_Spec_Red"
     "xpos"                "0"				//3
-    "ypos"                "30"				//7
+    "ypos"                "25"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
     "tall"                "5"			//24
@@ -84,9 +84,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"CodeProLC-Meters"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
-		"ypos"			"5"
-		"ypos_minmode"	"5"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -105,7 +103,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"CodeProLC-Meters"
 		"xpos"			"8"
-		"ypos"			"15"	[$WIN32]
+		"ypos"			"12"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"

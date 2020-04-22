@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
+		"xpos"			"c-60"	[$WIN32]
 		"ypos"			"c104"	[$WIN32]
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -20,7 +20,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"120"
 		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -46,7 +46,7 @@
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"120"
 		"tall"					"10"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
