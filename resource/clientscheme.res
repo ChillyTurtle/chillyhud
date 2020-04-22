@@ -3028,46 +3028,15 @@ Scheme
 
 // CHILLYHUD FONTS
 		
-// LATO BOLD
+
+// LATO LIGHT
 		
-		"Lato-Bold-HP"
+		"LatoLight-Meters"
 		{
 			"1"
 			{
-				"name"		"Lato Bold"
-				"tall"		"48"
-				"antialias" "1"
-			}
-		}
-		
-		"Lato-Bold-Ammo-Reserve"
-		{
-			"1"
-			{
-				"name"		"Lato Bold"
-				"tall"		"30"
-				"antialias" "1"
-			}
-		}
-		
-		"Lato-Bold-Counter"
-		{
-			"1"
-			{
-				"name"		"Lato Bold"
-				"tall"		"20"
-				"antialias" "1"
-			}
-		}
-		
-// LATO REGULAR
-		
-		"Lato-Regular-Meters"
-		{
-			"1"
-			{
-				"name"		"Lato Regular"
-				"tall"		"12"
+				"name"		"Lato Light"
+				"tall"		"6"
 				"antialias" "1"
 			}
 		}

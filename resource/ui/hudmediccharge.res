@@ -1,30 +1,12 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"Background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"130"
-		"tall"			"65"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
-	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"0"
-		"xpos_minmode"			"11"
 		"ypos"			"0"
-		"ypos_minmode"			"11"
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"120"
@@ -47,9 +29,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"2"
-		"xpos_minmode"			"11"
 		"ypos"			"2"
-		"ypos_minmode"			"11"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"

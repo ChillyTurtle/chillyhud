@@ -74,25 +74,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"			"26"
-			"ypos"			"16"
-			"ypos_minmode"	"12"
-			"wide"			"20"
-			"wide_minmode"	"14"
-			"tall"			"20"
-			"tall_minmode"	"14"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../hud/ico_stickybomb_red"
-			"scaleImage"	"1"
-			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"	
-		}	
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -147,25 +129,6 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"			"26"
-			"ypos"			"16"
-			"ypos_minmode"	"12"
-			"wide"			"20"
-			"wide_minmode"	"14"
-			"tall"			"20"
-			"tall_minmode"	"14"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../hud/ico_stickybomb_red_faded"
-			"scaleImage"	"1"
-			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
-		}
 
 		"NumPipesLabel"
 		{

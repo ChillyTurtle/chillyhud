@@ -15,17 +15,16 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
-		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"xpos"			"999"
+		"ypos"			"999"
+		"zpos"			"3"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
@@ -34,9 +33,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"999"
+		"ypos"			"999"
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
@@ -50,18 +48,12 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"999"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
 		"ypos"			"999"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"0"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
 		"tall"			"0"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 	}
 	"HealthBG"

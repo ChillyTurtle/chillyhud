@@ -1,4 +1,4 @@
-"Resource/UI/HudDemomanCharge.res"
+"Resource/UI/HudBowCharge.res"
 {	
 	"ChargeMeter"
 	{	
@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"10"				
+		"tall"			"10"			
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
