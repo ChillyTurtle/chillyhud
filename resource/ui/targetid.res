@@ -9,7 +9,7 @@
     "ypos"                "0"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
-    "tall"                "25"			//24
+    "tall"                "10"			//24
     "visible"             "1"
     "enabled"             "1"
     "fillcolor"           "ChillyHUD-TransparentBlack"
@@ -19,7 +19,7 @@
     "ControlName"         "CTFImagePanel"
     "fieldName"           "TargetIDBG"
     "xpos"                "0"				//3
-    "ypos"                "25"				//7
+    "ypos"                "10"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
     "tall"                "5"			//24
@@ -28,55 +28,55 @@
 	"image"				"../hud/color_panel_brown"
 	"scaleImage"		"1"
 	"teambg_1"			"../hud/color_panel_brown"
-	"teambg_2"			"../hud/color_panel_red"
-	"teambg_3"			"../hud/color_panel_blu"
+	"teambg_2"			"replay/thumbnails/bg_red"
+	"teambg_3"			"replay/thumbnails/bg_blue"
 	
-	"src_corner_height"		"40"				// pixels inside the image
-	"src_corner_width"		"40"			
-	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"0"	
+	"src_corner_height"		"23"				// pixels inside the image
+	"src_corner_width"		"23"			
+	"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+	"draw_corner_height" 	"10"	
 	}
 	"TargetIDBG_Spec_Blu"
 	{
     "ControlName"         "ScalableImagePanel"
     "fieldName"           "TargetIDBG_Spec_Blu"
     "xpos"                "0"				//3
-    "ypos"                "25"				//7
+    "ypos"                "10"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
-    "tall"                "5"			//24
+    "tall"                "10"			//24
 	"autoResize"			"0"
 	"pinCorner"				"0"
     "visible"             "0"
     "enabled"             "1"
-	"image"				"../hud/color_panel_blu"
+	"image"				"replay/thumbnails/bg_blue"
 	"scaleImage"		"1"
 	
-	"src_corner_height"		"40"				// pixels inside the image
-	"src_corner_width"		"40"			
-	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"0"	
+	"src_corner_height"		"23"				// pixels inside the image
+	"src_corner_width"		"23"			
+	"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+	"draw_corner_height" 	"10"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
     "ControlName"         "ScalableImagePanel"
     "fieldName"           "TargetIDBG_Spec_Red"
     "xpos"                "0"				//3
-    "ypos"                "25"				//7
+    "ypos"                "10"				//7
     "zpos"                "-1"
 	"wide"					"999"	//
-    "tall"                "5"			//24
+    "tall"                "10"			//24
 	"autoResize"			"0"
 	"pinCorner"				"0"
     "visible"             "0"
     "enabled"             "1"
-	"image"				"../hud/color_panel_red"
+	"image"				"replay/thumbnails/bg_red"
 	"scaleImage"		"1"
 	
-	"src_corner_height"		"40"				// pixels inside the image
-	"src_corner_width"		"40"			
-	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"0"	
+	"src_corner_height"		"23"				// pixels inside the image
+	"src_corner_width"		"23"			
+	"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+	"draw_corner_height" 	"10"	
 	}
 	"TargetNameLabel"
 	{	
@@ -84,7 +84,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"CodeProLC-Meters"
 		"xpos"			"8"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -103,7 +103,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"CodeProLC-Meters"
 		"xpos"			"8"
-		"ypos"			"12"	[$WIN32]
+		"ypos"			"8"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -120,12 +120,12 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
+		"xpos"			"0"
 		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"ypos_minmode"	"0"
 		"wide"			"40"
-		"tall"			"30"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
@@ -140,7 +140,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"50"
-		"ypos"			"20"
+		"ypos"			"12"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -155,7 +155,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
-		"ypos"			"20"
+		"ypos"			"12"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -173,7 +173,7 @@
 		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"32"
-		"tall"			"36"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"	
 		
@@ -185,7 +185,7 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"10"
-			"tall"			"36"
+			"tall"			"20"
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall_nocolor"
@@ -201,7 +201,7 @@
 			"ypos"			"7"
 			"zpos"			"11"
 			"wide"			"14"
-			"tall"			"14"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
@@ -233,7 +233,7 @@
 			"ypos"			"22"
 			"zpos"			"1"
 			"wide"			"640"
-			"tall"			"24"
+			"tall"			"20"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"

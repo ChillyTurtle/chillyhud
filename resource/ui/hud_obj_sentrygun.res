@@ -30,10 +30,10 @@
 		"icon"			"obj_status_background_tall_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-	"DispenserBG"
+	"SentryBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"DispenserBG"
+		"fieldName"		"SentryBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -247,18 +247,31 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"60"
 			"visible"		"0"
-
+			
+			"CurrentlyBuildingIndicator"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"CurrentlyBuildingIndicator"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"10"
+				"tall"			"58"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"ChillyHUD-BrightOrange"
+			}				
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"18"
 				"wide"			"200"
 				"tall"			"12"
@@ -277,7 +290,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"29"
 				"wide"			"50"
 				"tall"			"8"				
@@ -295,17 +308,41 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"60"
 			"visible"		"0"
 			
+			"TeamIndicator"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"		"TeamIndicator"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"10"
+				"tall"			"58"
+				"visible"		"1"
+				"enabled"		"1"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"image"			"../hud/color_panel_brown"
+				"scaleImage"		"1"
+				"teambg_1"		"../hud/color_panel_brown"
+				"teambg_2"		"replay/thumbnails/bg_red"
+				"teambg_3"		"replay/thumbnails/bg_blue"
+			
+				"src_corner_height"		"23"				// pixels inside the image
+				"src_corner_width"		"23"			
+				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"	
+			}				
 			"KillIcon"	
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"12"
 				"zpos"			"1"
 				"wide"			"10"
@@ -322,7 +359,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
-				"xpos"			"12"
+				"xpos"			"72"
 				"ypos"			"13"
 				"wide"			"200"
 				"tall"			"22"
@@ -340,7 +377,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"25"
 				"zpos"			"1"
 				"wide"			"10"
@@ -357,7 +394,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"72"
 				"ypos"			"26"
 				"wide"			"38"
 				"tall"			"8"				
@@ -374,7 +411,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"RocketIcon"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"38"
 				"zpos"			"1"
 				"wide"			"10"
@@ -391,7 +428,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Rockets"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"72"
 				"ypos"			"39"
 				"wide"			"38"
 				"tall"			"8"
@@ -408,7 +445,7 @@
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"38"
 				"zpos"			"1"
 				"wide"			"10"
@@ -425,7 +462,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"72"
 				"ypos"			"39"
 				"wide"			"38"
 				"tall"			"8"
@@ -439,28 +476,4 @@
 			}
 		}
 	}
-	"TeamIndicator"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamIndicator"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"10"
-		"tall"			"58"
-		"visible"		"1"
-		"enabled"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}	
 }

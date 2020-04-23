@@ -24,11 +24,26 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
+	}
+	
+	"TeleEntranceBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TeleEntranceBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"29"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"fillcolor"		"ChillyHUD-TransparentBlack"	
 	}
 	
 	"Icon_Teleport_Entrance"
@@ -202,18 +217,32 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
+
+			"CurrentlyBuildingIndicator"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"CurrentlyBuildingIndicator"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"10"
+				"tall"			"29"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"ChillyHUD-BrightOrange"
+			}	
 
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
@@ -232,7 +261,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"16"
 				"wide"			"50"
 				"tall"			"8"				
@@ -250,17 +279,42 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
+
+			"TeamIndicator"
+			{
+				"ControlName"	"CTFImagePanel"
+				"fieldName"		"TeamIndicator"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"10"
+				"tall"			"29"
+				"visible"		"1"
+				"enabled"		"1"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"image"			"../hud/color_panel_brown"
+				"scaleImage"		"1"
+				"teambg_1"		"../hud/color_panel_brown"
+				"teambg_2"		"replay/thumbnails/bg_red"
+				"teambg_3"		"replay/thumbnails/bg_blue"
+			
+				"src_corner_height"		"23"				// pixels inside the image
+				"src_corner_width"		"23"			
+				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"	
+			}		
 			
 			"TeleportedIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"TeleportedIcon"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"10"
@@ -287,7 +341,7 @@
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
 					"font"			"Default"
-					"xpos"			"12"
+					"xpos"			"72"
 					"ypos"			"6"
 					"wide"			"38"
 					"tall"			"8"
@@ -305,7 +359,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"FullyChargedPanel"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"0"
 				"wide"			"100"
 				"tall"			"31"
@@ -335,7 +389,7 @@
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
-				"xpos"			"0"
+				"xpos"			"60"
 				"ypos"			"16"
 				"zpos"			"1"
 				"wide"			"10"
@@ -352,7 +406,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"72"
 				"ypos"			"17"
 				"wide"			"38"
 				"tall"			"8"

@@ -177,11 +177,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c-56"	[$WIN32]
+		"ypos"					"c22"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -221,13 +218,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
+		"xpos"		"c-320"	[$WIN32]
+		"ypos"		"c150"	[$WIN32]
+		"wide"		"200"
+		"tall"		"30"
 	}
 
 	CMainTargetID
@@ -236,9 +230,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c30"
+		"ypos"		"c45"
 		"wide"	 	"f0"
-		"tall"	 	"30"
+		"tall"	 	"20"
 		"priority"	"40"
 		"priority_lodef"	"5"
 	}
@@ -249,9 +243,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c30"
+		"ypos"		"c100"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"20"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -266,9 +260,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c65"
+		"ypos"		"c70"
 		"wide"	 	"252"
-		"tall"	 	"30"
+		"tall"	 	"20"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 

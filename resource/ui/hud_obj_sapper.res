@@ -24,11 +24,26 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
 		"iconColor"		"255 255 255 255"
+	}
+	
+	"SapperBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SapperBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"29"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"fillcolor"		"ChillyHUD-TransparentBlack"	
 	}
 	
 	"Icon"
@@ -55,6 +70,21 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
+
+		"CurrentlyBuildingIndicator"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CurrentlyBuildingIndicator"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"10"
+			"tall"			"29"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"ChillyHUD-BrightOrange"
+		}	
+
 
 		"NotBuiltLabel"
 		{
@@ -85,6 +115,31 @@
 		"wide"			"160"
 		"tall"			"43"
 		"visible"		"0"
+
+		"TeamIndicator"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"TeamIndicator"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"10"
+			"tall"			"29"
+			"visible"		"1"
+			"enabled"		"1"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"image"			"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			"teambg_1"		"../hud/color_panel_brown"
+			"teambg_2"		"replay/thumbnails/bg_red"
+			"teambg_3"		"replay/thumbnails/bg_blue"
+		
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"			
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}				
 
 		"Health"
 		{	

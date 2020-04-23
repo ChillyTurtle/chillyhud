@@ -3081,6 +3081,16 @@ Scheme
 			}
 		}
 		
+		"CodeProLC-MetersBig"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
 		"CodeProLC-Meters"
 		{
 			"1"
