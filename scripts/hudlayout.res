@@ -85,7 +85,7 @@
 		"ypos"			"c114"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
-		"tall"			"10"
+		"tall"			"12"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -96,10 +96,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	[$WIN32]
-		"ypos"			"c92"	[$WIN32]
+		"ypos"			"c102"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
-		"tall"			"10"
+		"tall"			"3"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -189,10 +189,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"c-150"
+		"ypos"					"c30"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -294,14 +292,10 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
-		"wide"		"640"
-		"tall"		"480"
+		"xpos"		"c-440"
+		"ypos"		"c-100"
+		"wide"		"200"
+		"tall"		"200"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -499,8 +493,8 @@
 		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "500"
+		"tall"	 "300"
 	}
 
 	HudTrain
@@ -734,11 +728,11 @@
 	{
 		"fieldName"				"HudHintDisplay"
 		"visible"				"0"
-		"enabled"				"1"
+		"enabled"				"0"
 		"xpos"					"c-240"
 		"ypos"					"c60"
-		"wide"					"480"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"
@@ -826,12 +820,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
+		"xpos"					"c-100"
+		"ypos"					"260"
+		"wide"					"200"
 		"tall"					"300"
-		"zpos"					"4"
-		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -938,7 +930,6 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1362,7 +1353,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"ypos"			"c165"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"

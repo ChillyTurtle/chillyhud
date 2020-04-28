@@ -8,7 +8,7 @@
 		"xpos"			"c-60"	[$WIN32]
 		"ypos"			"c114"	[$WIN32]
 		"wide"			"120"
-		"tall"			"10"
+		"tall"			"12"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -18,7 +18,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"10"
@@ -47,7 +47,7 @@
 		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"120"
-		"tall"					"10"				
+		"tall"					"3"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

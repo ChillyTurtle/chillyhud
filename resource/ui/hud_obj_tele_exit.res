@@ -40,8 +40,8 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"29"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"fillcolor"		"ChillyHUD-TransparentBlack"	
 	}
@@ -233,7 +233,7 @@
 				"tall"			"29"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"ChillyHUD-BrightOrange"
+				"fillcolor"		"ChillyHUD-BrightGreen"
 			}	
 
 			"BuildingLabel"

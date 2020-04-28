@@ -41,30 +41,30 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"ChillyHUD-TransparentBlack"
+		"fillcolor"		"ChillyHUD-TanLight"
 	}
 	
 	"DisguiseStatusBG"
 	{
-    "ControlName"         "CTFImagePanel"
-    "fieldName"           "DisguiseStatusBG"
-    "xpos"                "0"				//3
-    "ypos"                "20"				//7
-    "zpos"                "0"
-	"wide"					"200"	//
-    "tall"                "5"			//24
-    "visible"             "1"
-    "enabled"             "1"
-	"image"				"../hud/color_panel_brown"
-	"scaleImage"		"1"
-	"teambg_1"			"../hud/color_panel_brown"
-	"teambg_2"			"replay/thumbnails/bg_red"
-	"teambg_3"			"replay/thumbnails/bg_blue"
-	
-	"src_corner_height"		"23"				// pixels inside the image
-	"src_corner_width"		"23"			
-	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"0"	
+		"ControlName"         "CTFImagePanel"
+		"fieldName"           "DisguiseStatusBG"
+		"xpos"                "0"				//3
+		"ypos"                "20"				//7
+		"zpos"                "0"
+		"wide"					"200"	//
+		"tall"                "5"			//24
+		"visible"             "1"
+		"enabled"             "1"
+		"image"				"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"replay/thumbnails/bg_red"
+		"teambg_3"			"replay/thumbnails/bg_blue"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"DisguiseNameLabel"
@@ -85,6 +85,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"0 0 0 255"
 	}
 	
 	"WeaponNameLabel"
@@ -105,6 +106,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"0 0 0 255"		
 	}
 	
 	"SpectatorGUIHealth"

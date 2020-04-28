@@ -3,93 +3,95 @@
 	
 	"TargetBG"
 	{
-    "ControlName"         "ImagePanel"
-    "fieldName"           "TargetBG"
-    "xpos"                "0"				//3
-    "ypos"                "0"				//7
-    "zpos"                "-1"
-	"wide"					"999"	//
-    "tall"                "10"			//24
-    "visible"             "1"
-    "enabled"             "1"
-    "fillcolor"           "ChillyHUD-TransparentBlack"
+		"ControlName"         "ImagePanel"
+		"fieldName"           "TargetBG"
+		"xpos"                "0"				//3
+		"ypos"                "0"				//7
+		"zpos"                "-1"
+		"wide"					"999"	//
+		"tall"                "10"			//24
+		"visible"             "1"
+		"enabled"             "1"
+		"fillcolor"           "ChillyHUD-TanLight"
 	}
 	"TargetIDTeamIndicator"
 	{
-    "ControlName"         "CTFImagePanel"
-    "fieldName"           "TargetIDBG"
-    "xpos"                "0"				//3
-    "ypos"                "10"				//7
-    "zpos"                "-1"
-	"wide"					"999"	//
-    "tall"                "5"			//24
-    "visible"             "1"
-    "enabled"             "1"
-	"image"				"../hud/color_panel_brown"
-	"scaleImage"		"1"
-	"teambg_1"			"../hud/color_panel_brown"
-	"teambg_2"			"replay/thumbnails/bg_red"
-	"teambg_3"			"replay/thumbnails/bg_blue"
-	
-	"src_corner_height"		"23"				// pixels inside the image
-	"src_corner_width"		"23"			
-	"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"10"	
+		"ControlName"         "CTFImagePanel"
+		"fieldName"           "TargetIDBG"
+		"xpos"                "0"				//3
+		"ypos"                "10"				//7
+		"zpos"                "-1"
+		"wide"					"999"	//
+		"tall"                "10"			//24
+		"visible"             "1"
+		"enabled"             "1"
+		"image"				"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"replay/thumbnails/bg_red"
+		"teambg_3"			"replay/thumbnails/bg_blue"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"	
 	}
 	"TargetIDBG_Spec_Blu"
 	{
-    "ControlName"         "ScalableImagePanel"
-    "fieldName"           "TargetIDBG_Spec_Blu"
-    "xpos"                "0"				//3
-    "ypos"                "10"				//7
-    "zpos"                "-1"
-	"wide"					"999"	//
-    "tall"                "10"			//24
-	"autoResize"			"0"
-	"pinCorner"				"0"
-    "visible"             "0"
-    "enabled"             "1"
-	"image"				"replay/thumbnails/bg_blue"
-	"scaleImage"		"1"
-	
-	"src_corner_height"		"23"				// pixels inside the image
-	"src_corner_width"		"23"			
-	"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"10"	
+		"ControlName"         "ScalableImagePanel"
+		"fieldName"           "TargetIDBG_Spec_Blu"
+		"xpos"                "0"				//3
+		"ypos"                "10"				//7
+		"zpos"                "-1"
+		"wide"					"999"	//
+		"tall"                "10"			//24
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"             "0"
+		"enabled"             "1"
+		"image"				"replay/thumbnails/bg_blue"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
-    "ControlName"         "ScalableImagePanel"
-    "fieldName"           "TargetIDBG_Spec_Red"
-    "xpos"                "0"				//3
-    "ypos"                "10"				//7
-    "zpos"                "-1"
-	"wide"					"999"	//
-    "tall"                "10"			//24
-	"autoResize"			"0"
-	"pinCorner"				"0"
-    "visible"             "0"
-    "enabled"             "1"
-	"image"				"replay/thumbnails/bg_red"
-	"scaleImage"		"1"
-	
-	"src_corner_height"		"23"				// pixels inside the image
-	"src_corner_width"		"23"			
-	"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-	"draw_corner_height" 	"10"	
+		"ControlName"         "ScalableImagePanel"
+		"fieldName"           "TargetIDBG_Spec_Red"
+		"xpos"                "0"				//3
+		"ypos"                "10"				//7
+		"zpos"                "-1"
+		"wide"					"999"	//
+		"tall"                "10"			//24
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"             "0"
+		"enabled"             "1"
+		"image"				"replay/thumbnails/bg_red"
+		"scaleImage"		"1"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"	
 	}
+	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"CodeProLC-Meters"
-		"xpos"			"8"
-		"ypos"			"0"
+		"xpos"			"999"
+		"ypos"			"999"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"fgcolor"		"Black"
+		"autoResize" "0"
+		"pinCorner"	 "0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -97,6 +99,27 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	"TargetNameLabelShadow"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelShadow"
+		"font"			"CodeProLC-Meters"
+		"xpos"			"50"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"640"
+		"tall"			"24"
+		"fgcolor_override"		"0 0 0 255"
+		"autoResize" "0"
+		"pinCorner"	 "0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"North-West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
+	
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
@@ -115,6 +138,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor"	"0 0 0 255"		
 	}
 	"SpectatorGUIHealth"
 	{
