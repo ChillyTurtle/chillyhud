@@ -41,7 +41,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"ChillyHUD-TanLight"
+		"fillcolor"		"ChillyHUD-White"
 	}
 	
 	"DisguiseStatusBG"
@@ -52,7 +52,7 @@
 		"ypos"                "20"				//7
 		"zpos"                "0"
 		"wide"					"200"	//
-		"tall"                "5"			//24
+		"tall"                "3"			//24
 		"visible"             "1"
 		"enabled"             "1"
 		"image"				"../hud/color_panel_brown"
@@ -85,7 +85,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"ChillyHUD-Black"
 	}
 	
 	"WeaponNameLabel"
@@ -106,7 +106,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"0 0 0 255"		
+		"fgcolor_override"	"ChillyHUD-Black"		
 	}
 	
 	"SpectatorGUIHealth"

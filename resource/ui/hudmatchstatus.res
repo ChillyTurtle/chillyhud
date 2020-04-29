@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"HudFontGiant"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"TanLight"
 
 		if_readymode
 		{
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"CodeProLC-Meters"
+		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"ChillyHUD-TransparentBlack"
+		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
 	
@@ -201,69 +201,10 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	
-	"RoundCounterRedTeamBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"RoundCounterRedTeamBG"
-		"xpos"			"c0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"40"
-		"tall"			"10"
+		"wide"			"300"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_red"
-		"scaleImage"	"1"	
-		
-		if_mvm
-		{
-			"visible"	"0"
-		}
-	}	
-	
-	"RoundCounterBluTeamBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"RoundCounterBluTeamBG"
-		"xpos"			"c-40"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"40"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_blue"
-		"scaleImage"	"1"
-		
-		if_mvm
-		{
-			"visible"	"0"
-		}		
-	}	
-
-	"RoundCounterBlackBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RoundCounterWhiteBG"
-		"xpos"			"c-40"
-		"ypos"			"10"
-		"zpos"			"0"		
-		"wide"			"80"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"Black"
-		
-		if_mvm
-		{
-			"visible"	"0"
-		}		
 	}	
 
 	"BGFrame"
@@ -278,7 +219,7 @@
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"border"			"NoBorder"
 
 		if_match
 		{
@@ -290,7 +231,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"HudFontMediumSmallBold"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -313,7 +254,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"HudFontMediumSmallBold"
 		"xpos"			"cs-0.5+2"
 		"ypos"			"80+2"
 		"wide"			"600"
@@ -329,7 +270,7 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"ChillyHUD-TransparentBlack"
+		"fgcolor"		"Black"
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -356,7 +297,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"CodeProLC-Meters"
+		"delta_item_font"		"HudFontMedium"
 
 		if_match
 		{
@@ -369,30 +310,30 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"CodeProLC-Meters"
+			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"CodeProLC-Meters"
-			"font_minmode"	"CodeProLC-Meters"
-			"font_lodef"	"CodeProLC-Meters"
-			"fgcolor"		"ChillyHUD-TanLight"
-			"xpos"			"c-40"
-			"xpos_minmode"	"c-40"
-			"xpos_hidef"	"c-40"
-			"xpos_lodef"	"c-40"
-			"ypos"			"10"
-			"ypos_minmode"	"10"
-			"ypos_hidef"	"10"
-			"ypos_lodef"	"10"
+			"font"			"HudFontMediumSmall"
+			"font_minmode"	"HudFontSmall"
+			"font_lodef"	"HudFontMedium"
+			"fgcolor"		"TanLight"
+			"xpos"			"23"
+			"xpos_minmode"	"39"
+			"xpos_hidef"	"114"
+			"xpos_lodef"	"114"
+			"ypos"			"11"
+			"ypos_minmode"	"6"
+			"ypos_hidef"	"15"
+			"ypos_lodef"	"18"
 			"zpos"			"3"
-			"wide"			"80"
-			"wide_minmode"	"80"
-			"wide_lodef"	"80"
-			"tall"			"10"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"wide_lodef"	"50"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -406,9 +347,9 @@
 				"ypos"			"12"
 				"ypos_minmode"	"12"
 				"tall"			"10"
-				"font"			"CodeProLC-Meters"
-				"font_minmode"	"CodeProLC-Meters"
-				"font_lodef"	"CodeProLC-Meters"
+				"font"			"HudFontSmall"
+				"font_minmode"	"HudFontSmall"
+				"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}
@@ -554,7 +495,7 @@
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
-				"TFFont"					"CodeProLC-Meters"
+				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 			}

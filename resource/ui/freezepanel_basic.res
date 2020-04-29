@@ -79,7 +79,7 @@
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"TeamIndicator"
 			"xpos"			"8"
-			"ypos"			"190"
+			"ypos"			"180"
 			"zpos"			"-1"
 			"wide"			"256"
 			"tall"			"3"
@@ -97,15 +97,15 @@
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		"FreezePanelBlackBG"
+		"FreezePanelWhiteBG"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"FreezePanelBlackBG"
+			"fieldName"		"FreezePanelWhiteBG"
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"-1"
 			"wide"			"256"
-			"tall"			"30"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"ChillyHUD-TanLight"
@@ -123,13 +123,13 @@
 			"tall"			"12"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#FreezePanel_Killer"
 			"textAlignment"		"North-West"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"ChillyHUD-Black"
 		}
 		
 		"FreezePanelHealth"		[$WIN32]
@@ -140,7 +140,7 @@
 			"ypos"			"160"
 			"zpos"			"1"
 			"wide"			"40"
-			"tall"			"33"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
@@ -155,7 +155,7 @@
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"CodeProLC-MetersBig"
 			"xpos"			"61"
-			"ypos"			"173"
+			"ypos"			"162"
 			"zpos"			"5"
 			"wide"			"252"
 			"tall"			"18"
@@ -165,7 +165,7 @@
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"ChillyHUD-Black"
 		}
 
 		"AvatarImage"
@@ -188,7 +188,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"35"		// FIXME
+			"xpos"			"10"		// FIXME
 			"ypos"			"120"
 			"zpos"			"4"
 			"wide"			"306"
@@ -199,7 +199,7 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"NemesisPanelBG"
-				"xpos"			"95"
+				"xpos"			"0"
 				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"161"
@@ -219,7 +219,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"NemesisIcon"
-				"xpos"			"95"
+				"xpos"			"0"
 				"ypos"			"-1"
 				"zpos"			"6"
 				"wide"			"36"
@@ -234,7 +234,7 @@
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
 				"font"			"CodeProLC-MetersBig"
-				"xpos"			"134"
+				"xpos"			"39"
 				"ypos"			"10"
 				"zpos"			"6"
 				"wide"			"112"
@@ -251,7 +251,7 @@
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel2"
 				"font"			"CodeProLC-MetersBig"
-				"xpos"			"134"
+				"xpos"			"39"
 				"ypos"			"10"
 				"zpos"			"6"
 				"wide"			"112"

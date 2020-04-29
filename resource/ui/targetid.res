@@ -1,10 +1,10 @@
 "Resource/UI/TargetID.res"
 {
 	
-	"TargetBG"
+	"TargetBG3"
 	{
 		"ControlName"         "ImagePanel"
-		"fieldName"           "TargetBG"
+		"fieldName"           "TargetBG3"
 		"xpos"                "0"				//3
 		"ypos"                "0"				//7
 		"zpos"                "-1"
@@ -12,9 +12,9 @@
 		"tall"                "10"			//24
 		"visible"             "1"
 		"enabled"             "1"
-		"fillcolor"           "ChillyHUD-TanLight"
+		"fillcolor"           "ChillyHUD-White"
 	}
-	"TargetIDTeamIndicator"
+	"TargetIDBG"
 	{
 		"ControlName"         "CTFImagePanel"
 		"fieldName"           "TargetIDBG"
@@ -36,47 +36,47 @@
 		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"10"	
 	}
-	"TargetIDBG_Spec_Blu"
+	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"         "ScalableImagePanel"
-		"fieldName"           "TargetIDBG_Spec_Blu"
-		"xpos"                "0"				//3
-		"ypos"                "10"				//7
-		"zpos"                "-1"
-		"wide"					"999"	//
-		"tall"                "10"			//24
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"             "0"
-		"enabled"             "1"
-		"image"				"replay/thumbnails/bg_blue"
-		"scaleImage"		"1"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Blue"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"-3"
+		"wide"			"252"
+		"tall"	 		"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/bg_blue"
 		
 		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
+			
 		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"	
+		"draw_corner_height" 	"10"
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"         "ScalableImagePanel"
-		"fieldName"           "TargetIDBG_Spec_Red"
-		"xpos"                "0"				//3
-		"ypos"                "10"				//7
-		"zpos"                "-1"
-		"wide"					"999"	//
-		"tall"                "10"			//24
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"             "0"
-		"enabled"             "1"
-		"image"				"replay/thumbnails/bg_red"
-		"scaleImage"		"1"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TargetIDBG_Spec_Red"
+		"xpos"			"0"
+		"ypos"			"10" //8
+		"zpos"			"-3"
+		"wide"			"252"
+		"tall"	 		"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/bg_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
+			
 		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"	
+		"draw_corner_height" 	"10"
 	}
 	
 	"TargetNameLabel"
@@ -109,7 +109,7 @@
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"ChillyHUD-Black"
 		"autoResize" "0"
 		"pinCorner"	 "0"
 		"visible"		"1"
@@ -138,7 +138,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"	"0 0 0 255"		
+		"fgcolor"	"ChillyHUD-Black"		
 	}
 	"SpectatorGUIHealth"
 	{

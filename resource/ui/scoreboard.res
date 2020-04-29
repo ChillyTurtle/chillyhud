@@ -461,7 +461,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"14"
-		"textcolor"		"red"
+		"textcolor"		"255 0 0 255"
 		"linegap"		"0"
 		"show_columns"	"0"		
 		
@@ -498,7 +498,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"Avenir11"
+		"font"			"CodeProLC-Meters"
 		"labelText"		"%spectators%"
 		"textAlignment"	"west"
 		"xpos"			"c-266"
@@ -521,7 +521,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"Avenir11"
+		"font"			"CodeProLC-Meters"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"	"west"
 		"xpos"			"160"
@@ -577,7 +577,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"ChillyHUD-TanLight"
+		"fillcolor"		"ChillyHUD-White"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -606,7 +606,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"CodeProLC-Meters"
 		"labelText"		"%playername%"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -672,12 +672,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 		
 		if_mvm
 		{
-			"font"			"NeutraDisp18"
-			"fgcolor"		"CodeProLC-Meters"
+			"font"			"CodeProLC-Meters"
+			"fgcolor"		"ChillyHUD-White"
 		}
 	}
 
@@ -786,7 +786,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"ChillyHUD-TanLight"
+				"fgcolor"		"ChillyHUD-White"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -873,7 +873,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"ChillyHUD-TanLight"
+				"fgcolor"		"ChillyHUD-White"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -964,7 +964,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"0 0 0 255"
+			"fgcolor"	"ChillyHUD-Black"
 		}
 		
 		"Kills2"
@@ -983,7 +983,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"
+			"fgcolor" "ChillyHUD-Black"
 		}
 		
 		"Deaths2"
@@ -1002,7 +1002,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"
+			"fgcolor" "ChillyHUD-Black"
 		}
 	
 		"AssistsLabel"
@@ -1021,7 +1021,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"0 0 0 255"
+			"fgcolor"	"ChillyHUD-Black"
 		}
 		
 		"Assists2"
@@ -1040,7 +1040,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"
+			"fgcolor" "ChillyHUD-Black"
 		}
 
 		"DestructionLabel"
@@ -1059,7 +1059,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"0 0 0 255"
+			"fgcolor"	"ChillyHUD-Black"
 		}
 			
 		"Destruction2"
@@ -1078,7 +1078,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"		
+			"fgcolor" "ChillyHUD-Black"		
 		}
 		
 		"CapturesLabel"
@@ -1097,7 +1097,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"0 0 0 255"
+			"fgcolor"	"ChillyHUD-Black"
 		}
 		
 		"Captures2"
@@ -1116,7 +1116,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"DefensesLabel"
@@ -1135,7 +1135,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 	
 		"Defenses2"
@@ -1154,7 +1154,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 	
 		"DominationLabel"
@@ -1173,7 +1173,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Domination2"
@@ -1192,7 +1192,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"RevengeLabel"
@@ -1211,7 +1211,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 	
 		"Revenge2"	
@@ -1230,7 +1230,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"				
+			"fgcolor" "ChillyHUD-Black"				
 		}
 			
 		"HealingLabel"
@@ -1249,7 +1249,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Healing2"
@@ -1268,7 +1268,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"
+			"fgcolor" "ChillyHUD-Black"
 		}
 		
 		"InvulnLabel"
@@ -1287,7 +1287,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Invuln2"
@@ -1306,7 +1306,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"
+			"fgcolor" "ChillyHUD-Black"
 		}
 		
 		"TeleportsLabel"
@@ -1325,7 +1325,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Teleports2"
@@ -1344,7 +1344,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 			
 		"HeadshotsLabel"
@@ -1363,7 +1363,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Headshots2"
@@ -1382,7 +1382,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"BackstabsLabel"
@@ -1401,7 +1401,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Backstabs2"
@@ -1420,7 +1420,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"BonusLabel"
@@ -1439,7 +1439,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Bonus2"
@@ -1458,7 +1458,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"SupportLabel"
@@ -1477,7 +1477,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Support2"
@@ -1496,7 +1496,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"	"0 0 0 255"
+			"fgcolor"	"ChillyHUD-Black"
 		}
 		
 		"DamageLabel"
@@ -1515,7 +1515,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 		
 		"Damage2"
@@ -1534,7 +1534,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "0 0 0 255"	
+			"fgcolor" "ChillyHUD-Black"	
 		}
 
 	}

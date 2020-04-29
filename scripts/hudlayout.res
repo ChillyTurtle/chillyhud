@@ -278,9 +278,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"ypos"		"c-100"	[$WIN32]	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -292,7 +290,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-440"
+		"xpos"		"0"
 		"ypos"		"c-100"
 		"wide"		"200"
 		"tall"		"200"
@@ -450,24 +448,22 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"		"ChillyHUD-BluTeam"
+		"TeamRed"		"ChillyHUD-RedTeam"
+		"IconColor"		"ChillyHUD-White"
+		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"Black"		[$WIN32]
+		"LocalBackgroundColor"	"ChillyHUD-TanLight"	[$WIN32]
 	}
 
 	HudVehicle

@@ -249,7 +249,7 @@
 			"fieldName"		"BuildingPanel"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"100"
+			"wide"			"120"
 			"tall"			"60"
 			"visible"		"0"
 			
@@ -310,7 +310,7 @@
 			"fieldName"		"RunningPanel"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"100"
+			"wide"			"120"
 			"tall"			"60"
 			"visible"		"0"
 			
