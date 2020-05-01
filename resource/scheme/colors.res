@@ -16,6 +16,11 @@ Scheme
 		"ChillyHUD-BluTeam"				"0 188 212 255"
 		"ChillyHUD-RedTeam"				"240 98 146 255"
 
+		// ANTSHUD COLORS
+		"BGAnyLight"				"40 40 40 255"		// Lighter Color for Any BG
+		"BGAnyDark"					"30 30 30 255"		// Main Color for Any BG
+		"BGAnyDarker"				"20 20 20 255"		// Darker Color for Any BG
+
 		
 		// base colors
 		"Orange"			"178 82 22 255"
