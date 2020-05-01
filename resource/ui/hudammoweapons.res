@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"		
-		"fillcolor"		"240 0 0 255"
+		"fillcolor"		"255 0 0 255"
 		"alpha"			"0"
 	}
 	"AmmoInClip"

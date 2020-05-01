@@ -277,7 +277,7 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
+		"xpos"		"-10"	[$WIN32]
 		"ypos"		"c-100"	[$WIN32]	
 		"wide"		"640"
 		"tall"		"480"
@@ -290,7 +290,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-10"
 		"ypos"		"c-100"
 		"wide"		"200"
 		"tall"		"200"

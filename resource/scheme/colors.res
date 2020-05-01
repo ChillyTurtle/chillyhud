@@ -3,6 +3,8 @@ Scheme
 	Colors
 	{
 		//////////////////////// COLORS ///////////////////////////
+		
+		
 		// CHILLYHUD COLORS
 		"ChillyHUD-White"				"255 255 255 255"
 		"ChillyHUD-Black"				"0 0 0 255"
@@ -16,11 +18,29 @@ Scheme
 		"ChillyHUD-BluTeam"				"0 188 212 255"
 		"ChillyHUD-RedTeam"				"240 98 146 255"
 
+
 		// ANTSHUD COLORS
 		"BGAnyLight"				"40 40 40 255"		// Lighter Color for Any BG
 		"BGAnyDark"					"30 30 30 255"		// Main Color for Any BG
 		"BGAnyDarker"				"20 20 20 255"		// Darker Color for Any BG
 
+		"ButtonBG"					"50 50 50 255"		// Main Default BG Color for Buttons
+		
+		"AntsHUDLightBlue"			"115 175 215 255"	// Lighter Color of Blu Team
+		"AntsHUDBlue"				"90 140 190 255"	// Main Blu Team Color
+		"AntsHUDDarkBlue"			"65 115 165 255"	// Darker Color of Blu Team
+		"AntsHUDLightRed"			"235 85 85 255"		// Lighter Color of Red Team
+		"AntsHUDRed"				"210 60 60 255"		// Main Red Team Color
+		"AntsHUDDarkRed"			"185 35 35 255"		// Darker Color of Red Team
+		"AntsHUDHalloween"			"255 145 0 255"		// Main Color used for Halloween/Scream Fortress
+		"AntsHUDHalloweenGreen"		"84 221 86 255"		// Mouseover Color used for Halloween/Scream Fortress
+		
+		"AntsHUDWhite"				"255 255 255 255"	// White Color
+		"AntsHUDLessWhite"			"200 200 200 255"	// Dull White Color
+		"AntsHUDLesserWhite"		"150 150 150 255"	// Duller White Color
+		"AntsHUDGray"				"100 100 100 255"	// Gray Color
+		"AntsHUDDarkGray"			"50 50 50 255"		// Close-to Black Color
+		
 		
 		// base colors
 		"Orange"			"178 82 22 255"
