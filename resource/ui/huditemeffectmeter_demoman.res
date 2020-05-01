@@ -51,6 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CodeProLC-Meters"
+		"fgcolor"				"ChillyHUD-White"
 	}
 
 	"ItemEffectMeter"
@@ -91,5 +92,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CodeProLC-Counter"
+		"fgcolor"				"ChillyHUD-White"
 	}
 }

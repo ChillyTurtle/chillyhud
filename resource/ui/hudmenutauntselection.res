@@ -11,7 +11,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ChillyHUD-TanLight"
+		"fillcolor"		"ChillyHUD-White"
 	}
 
 	"Divider"

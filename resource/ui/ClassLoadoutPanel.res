@@ -80,7 +80,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC-MetersBig"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"Avenir16"
+		"font"			"CodeProLC-MetersBig"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -211,7 +211,7 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
@@ -387,7 +387,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"ChillyHUD-White"
-			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+			"armedFgColor_override" 	"ChillyHUD-BluTeam"
 			"depressedFgColor_override" "ChillyHUD-White"
 		}				
 	}

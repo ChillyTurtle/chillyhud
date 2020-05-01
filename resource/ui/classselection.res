@@ -44,7 +44,7 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"CodeProLC-Meters"
-		"fgcolor_override"	"ChillyHUD-TanLight"
+		"fgcolor_override"	"ChillyHUD-White"
 	}
 	
 	"scout"
@@ -769,7 +769,7 @@
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}
 	
 	"numScout"
@@ -789,7 +789,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}	
 	
 	"numSoldier"
@@ -809,7 +809,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}		
 	
 	"numPyro"
@@ -829,7 +829,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}			
 	
 	"numDemoman"
@@ -849,7 +849,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}				
 	
 	"numHeavy"
@@ -869,7 +869,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}					
 	
 	"numEngineer"
@@ -889,7 +889,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}						
 	
 	"numMedic"
@@ -909,7 +909,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}							
 	
 	"numSniper"
@@ -929,7 +929,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}						
 	
 	"numSpy"
@@ -949,7 +949,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
 		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}								
 	
 	"MvMUpgradeImageScout"

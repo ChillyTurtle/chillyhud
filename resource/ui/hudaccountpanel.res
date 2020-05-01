@@ -81,6 +81,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CodeProLC-Meters"
+		"fgcolor"				"ChillyHUD-White"
 	}
 	
 	"AccountValue"
@@ -102,5 +103,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CodeProLC-Counter"
+		"fgcolor"		"ChillyHUD-White"
 	}
 }

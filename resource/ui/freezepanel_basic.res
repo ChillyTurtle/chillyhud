@@ -108,7 +108,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ChillyHUD-TanLight"
+			"fillcolor"		"ChillyHUD-White"
 		}
 		
 		"FreezeLabel"

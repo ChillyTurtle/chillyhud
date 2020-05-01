@@ -59,7 +59,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"		"ChillyHUD-TanLight"
+		"fgcolor_override"		"ChillyHUD-White"
 		"bgcolor_override"		"ChillyHUD-TransparentBlack"
 	}				
 		
@@ -94,7 +94,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"CodeProLC-Counter"
-			"fgcolor"		"ChillyHUD-TanLight"
+			"fgcolor"		"ChillyHUD-White"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -149,7 +149,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"CodeProLC-Counter"
-			"fgcolor"		"ChillyHUD-TanLight"
+			"fgcolor"		"ChillyHUD-White"
 		}
 		"NumPipesLabelDropshadow"
 		{
