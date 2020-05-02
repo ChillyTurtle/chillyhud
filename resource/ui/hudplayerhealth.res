@@ -80,7 +80,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CodeProLC-HPSmall"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

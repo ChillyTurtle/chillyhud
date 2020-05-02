@@ -332,7 +332,7 @@
 				"fieldName"		"ChargingPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"100"
+				"wide"			"120"
 				"tall"			"31"
 				"visible"		"0"
 				
@@ -361,7 +361,7 @@
 				"fieldName"		"FullyChargedPanel"
 				"xpos"			"60"
 				"ypos"			"0"
-				"wide"			"100"
+				"wide"			"120"
 				"tall"			"31"
 				"visible"		"0"
 				

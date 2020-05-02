@@ -188,7 +188,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"10"		// FIXME
+			"xpos"			"50"		// FIXME
 			"ypos"			"120"
 			"zpos"			"4"
 			"wide"			"306"
