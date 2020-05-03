@@ -937,7 +937,7 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
+		"xpos"			"c100"
 		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"195"
@@ -949,7 +949,7 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
+		"xpos"			"c100"
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
@@ -961,7 +961,7 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
+		"xpos"			"c100"
 		"ypos"			"c-55"
 		"wide"			"250"
 		"tall"			"195"
@@ -973,13 +973,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
+		"xpos"			"c100"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
 	

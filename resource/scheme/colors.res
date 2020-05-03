@@ -26,12 +26,13 @@ Scheme
 
 		"ButtonBG"					"50 50 50 255"		// Main Default BG Color for Buttons
 		
-		"ChillyHUD-White"				"255 255 255 255"	// White Color
 		"ChillyHUD-LessWhite"			"200 200 200 255"	// Dull White Color
 		"ChillyHUD-LesserWhite"		"150 150 150 255"	// Duller White Color
 		"ChillyHUD-Gray"				"100 100 100 255"	// Gray Color
 		"ChillyHUD-DarkGray"			"50 50 50 255"		// Close-to Black Color
 		
+		// AHUD COLORS
+		"ChillyHUD-Yellow"			"169 123 53 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

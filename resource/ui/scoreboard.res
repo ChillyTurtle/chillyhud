@@ -983,7 +983,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "ChillyHUD-Black"
+			"fgcolor"		 "ChillyHUD-Black"
 		}
 		
 		"Deaths2"
@@ -1002,7 +1002,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "ChillyHUD-Black"
+			"fgcolor" 		"ChillyHUD-Black"
 		}
 	
 		"AssistsLabel"
