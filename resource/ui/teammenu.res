@@ -63,7 +63,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"CodeProLC-Counter"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}
 
 	"SelectATeamLabel"
@@ -80,7 +80,7 @@
 		"font"			"CodeProLC-Counter"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"ChillyHUD-TanLight"
+		"fgcolor_override"	"ChillyHUD-White"
 	}
 	
 	"teambutton0"
@@ -105,9 +105,9 @@
 		"team"				"3"		// team blue
 		"font"			"CodeProLC-Counter"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"ChillyHUD-TanLight"
+		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"ChillyHUD-TanLight"
+		"selectedFgColor_override" 	"ChillyHUD-White"
 	}
 	
 	"BlueTeamBG"
@@ -160,9 +160,9 @@
 		"team"				"4"		// team red
 		"font"			"CodeProLC-Counter"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"ChillyHUD-TanLight"
+		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"ChillyHUD-TanLight"
+		"selectedFgColor_override" 	"ChillyHUD-White"
 	}
 	
 	"RedTeamBG"
@@ -215,9 +215,9 @@
 		"command"		"jointeam auto"
 		"font"			"CodeProLC-MetersBig"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"ChillyHUD-TanLight"
+		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"ChillyHUD-TanLight"
+		"selectedFgColor_override" 	"ChillyHUD-White"
 	}
 
 	"teambutton3"
@@ -242,9 +242,9 @@
 		"command"		"jointeam spectate"
 		"font"			"CodeProLC-MetersBig"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"ChillyHUD-TanLight"
+		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"ChillyHUD-TanLight"
+		"selectedFgColor_override" 	"ChillyHUD-White"
 	}
 	
 	"teambuttonBG"
@@ -283,9 +283,9 @@
 		"command"		"cancelmenu"
 		"font"			"CodeProLC-MetersBig"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"ChillyHUD-TanLight"
+		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"ChillyHUD-TanLight"
+		"selectedFgColor_override" 	"ChillyHUD-White"
 	}
 	
 	"TeamMenuSelect"
@@ -350,7 +350,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"CodeProLC-MetersBig"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}
 
 	"MenuBG"
@@ -555,7 +555,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CodeProLC-MetersBig"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 		"centerwrap"	"1"
 	}
 	
@@ -599,7 +599,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CodeProLC-MetersBig"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"fgcolor"		"ChillyHUD-White"
 		"centerwrap"	"1"
 	}
 	

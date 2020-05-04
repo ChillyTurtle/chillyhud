@@ -1,5 +1,70 @@
 "Resource/HudLayout.res"
 {
+	//--------------------------------------------------------------
+	// KNUCKLESCROSSES
+	//--------------------------------------------------------------
+	// Set visible and enabled to 1 to use.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change labelText to the corresponding crosshair in KnucklesCrosses.png.
+	//--------------------------------------------------------------
+	KnucklesCrosses
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"b"
+		"controlName"		"CExLabel"
+		"fieldName"	 		"KnucklesCrosses"
+		"zpos"				"0"
+		"xpos"				"c-25"
+		"ypos"				"c-24"
+		"wide" 		 		"50"
+		"tall" 		 		"50"
+		"font"				"size:16,outline:on"
+		"textAlignment"		"center"
+		"fgcolor" 			"ChillyHUD-Yellow"
+		"alpha"				"255"
+	}
+	//--------------------------------------------------------------
+	// ROTATING CROSSHAIR
+	//--------------------------------------------------------------
+	// Set visible and enabled of both nodes to 1 to use.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change drawcolor of CrosshairPulse to desired hitmarker color.
+	//--------------------------------------------------------------
+	Crosshair
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"198"
+		"wide"				"24"
+		"tall"				"24"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"replay/thumbnails/xhair"
+		"scaleImage"		"1"
+		"drawcolor"			"ChillyHUD-White"
+		"Alpha"				"255"
+	}
+	CrosshairPulse
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"CrosshairPulse"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"198"
+		"wide"				"24"
+		"tall"				"24"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"replay/thumbnails/xhair"
+		"scaleImage"		"1"
+		"drawcolor"			"ChillyHUD-Black"
+		"Alpha"				"0"
+	}
+	//--------------------------------------------------------------
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

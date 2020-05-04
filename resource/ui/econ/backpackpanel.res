@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"BGAnyDark"
-		"infocus_bgcolor_override" "BGAnyDark"
-		"outoffocus_bgcolor_override" "BGAnyDark"
+		"bgcolor_override"	"BGAnyDarker"
+		"infocus_bgcolor_override" "BGAnyDarker"
+		"outoffocus_bgcolor_override" "BGAnyDarker"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -63,7 +63,7 @@
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
-				"font"				"HudFontSmallestBold"
+				"font"				"CodeProLC-Meters"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -459,7 +459,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ChillyHUD-White"
+		"fgcolor_override" "ChillyHUD-Yellow"
 	}
 	
 	"NextPageButton"

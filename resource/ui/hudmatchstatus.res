@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"CodeProLC-Counter"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ChillyHUD-White"
 
 		if_readymode
 		{
@@ -89,8 +89,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
+		"font"			"CodeProLC-Counter"
+		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
 		"tall"			"40"
@@ -102,14 +102,14 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"proportionaltoparent"	"1"
 
 	
 		if_readymode
 		{
 			"xpos"			"300"
-			"ypos"			"130"
+			"ypos"			"131"
 		}
 	}	
 
@@ -145,8 +145,8 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MatchDoors"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -201,10 +201,10 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 
 	"BGFrame"
@@ -214,16 +214,16 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"0"
-		"tall"				"0"
+		"wide"				"365"
+		"tall"				"28"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"NoBorder"
+		"border"			"TFFatLineBorder"
 
 		if_match
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -231,7 +231,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"CodeProLC-Counter"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -247,16 +247,16 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ChillyHUD-White"
 	}
 
 	"RankUpShadowLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"HudFontMediumSmallBold"
-		"xpos"			"cs-0.5+2"
-		"ypos"			"80+2"
+		"font"			"CodeProLC-Counter"
+		"xpos"			"cs-0.5"
+		"ypos"			"80+1"
 		"wide"			"600"
 		"tall"			"60"
 		"zpos"			"5"
@@ -270,75 +270,54 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"ChillyHUD-TransparentBlack"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"xpos"				"c-50"
+		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
+		"wide"				"100"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"29"
+		"delta_item_start_y"	"25"
+		"delta_item_end_y"		"55"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"CodeProLC-MetersBig"
 
 		if_match
 		{
-			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"font"			"CodeProLC-MetersBig"
+			"fgcolor"		"240 240 240 255"
+			"xpos"			"0"
+			"ypos"			"4"
 			"zpos"			"3"
-			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
-			"tall"			"31"
+			"wide"			"100"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
+			
 			if_match
 			{
 				"proportionaltoparent"	"1"
@@ -347,11 +326,8 @@
 				"ypos"			"12"
 				"ypos_minmode"	"12"
 				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			}
-		}	
+		}
 	}
 	"TeamStatus"
 	{
@@ -368,7 +344,7 @@
 
 		"max_size"	"19"
 
-		"6v6_gap"	"4"
+		"6v6_gap"	"3"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
@@ -382,15 +358,15 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"25"
+			"wide"			"20"
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"79 54 52 255"
-			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
+			"color_portrait_bg_red"	"ChillyHUD-RedTeam"
+			"color_portrait_bg_blue"	"ChillyHUD-BluTeam"
+			"color_portrait_bg_red_dead"	"100 54 52 255"
+			"color_portrait_bg_blue_dead"	"44 49 100 255"
+			"color_bar_health_high"	"255 255 255 255"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
@@ -468,9 +444,9 @@
 				"font"					"Default"																		
 				"xpos"					"0"
 				"ypos"					"19"
-				"zpos"					"6"
+				"zpos"					"-40"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"4"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -479,7 +455,7 @@
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
+				"fgcolor_override"	   "20 200 20 255"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
@@ -626,7 +602,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large
@@ -634,7 +610,7 @@
 			"ypos"			"65"
 			"tall"			"385"
 		}
-
+		
 		"BlueTeamBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -727,7 +703,7 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"			"315"
@@ -747,7 +723,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"			"325"
@@ -764,7 +740,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large
@@ -772,7 +748,7 @@
 			"ypos"			"65"
 			"tall"			"385"
 		}
-
+		
 		"RedTeamBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -865,7 +841,7 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-
+	
 			if_large
 			{
 				"tall"			"315"
@@ -885,7 +861,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+	
 			if_large
 			{
 				"tall"			"325"
