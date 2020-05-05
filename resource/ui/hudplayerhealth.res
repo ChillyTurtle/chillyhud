@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-White"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 	}
 	"PlayerStatusMaxHealthValue"

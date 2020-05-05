@@ -13,21 +13,21 @@ Scheme
 		// CHILLYHUD FONTS
 		
 
-		// LATO LIGHT
+		// LATO REGULAR
 		
-		"LatoLight-Meters"
+		"LatoRegular12"
 		{
 			"1"
 			{
-				"name"		"Lato Light"
-				"tall"		"6"
+				"name"		"Lato Regular"
+				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 
 		// CODE PRO LC
 
-		"CodeProLC-HPBig"
+		"CodeProLC64"
 		{
 			"1"
 			{
@@ -36,7 +36,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CodeProLC-HPSmall"
+		"CodeProLC48"
 		{
 			"1"
 			{
@@ -45,7 +45,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CodeProLC-AmmoReserve"
+		"CodeProLC30"
 		{
 			"1"
 			{
@@ -55,7 +55,7 @@ Scheme
 			}
 		}
 		
-		"CodeProLC-Counter"
+		"CodeProLC20"
 		{
 			"1"
 			{
@@ -65,7 +65,7 @@ Scheme
 			}
 		}
 		
-		"CodeProLC-MetersBig"
+		"CodeProLC16"
 		{
 			"1"
 			{
@@ -75,7 +75,7 @@ Scheme
 			}
 		}
 		
-		"CodeProLC-Meters"
+		"CodeProLC12"
 		{
 			"1"
 			{
@@ -84,7 +84,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	
+		
+		"CodeProLC10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		
 		"CodeProLC-DamageNumbers"
 		{
 			"1"

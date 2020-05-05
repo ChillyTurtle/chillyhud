@@ -108,7 +108,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"fgcolor"		"ChillyHUD-White"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
@@ -126,7 +126,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabelShadow"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"fgcolor"		"ChillyHUD-White"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
@@ -145,7 +145,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"CodeProLC-HPSmall"
+			"font"			"CodeProLC48"
 			"fgcolor"		"ChillyHUD-White"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -163,7 +163,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"CodeProLC-HPSmall"
+			"font"			"CodeProLC48"
 			"fgcolor"		"ChillyHUD-TransparentBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -209,7 +209,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"fgcolor"		"ChillyHUD-White"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
@@ -227,7 +227,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabelShadow"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"fgcolor"		"ChillyHUD-TransparentBlack"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
@@ -246,7 +246,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"CodeProLC-HPSmall"
+			"font"			"CodeProLC48"
 			"fgcolor"		"ChillyHUD-White"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
@@ -264,7 +264,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"CodeProLC-HPSmall"
+			"font"			"CodeProLC48"
 			"fgcolor"		"ChillyHUD-TransparentBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
@@ -341,7 +341,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"xpos"			"10"
 		"ypos"			"65"
 		"zpos"			"8"
@@ -360,7 +360,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"12"
 		"ypos"			"67"
@@ -380,7 +380,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"xpos"			"10"
 		"ypos"			"74"
 		"zpos"			"8"
@@ -399,7 +399,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"12"
 		"ypos"			"76"
@@ -419,7 +419,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"8"
@@ -438,7 +438,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"10"
 		"ypos"			"88"
 		"zpos"			"8"
@@ -474,7 +474,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"8"
@@ -493,7 +493,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"45"
 		"ypos"			"100"
 		"zpos"			"8"
@@ -782,7 +782,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"15"
 		"ypos"			"164"
 		"zpos"			"8"
@@ -802,7 +802,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"8"

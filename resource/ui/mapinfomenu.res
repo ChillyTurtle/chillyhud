@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-White"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"fgcolor"		"ChillyHUD-White"
 	}	
 	
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"
@@ -129,7 +129,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"255 255 255 128"
@@ -164,7 +164,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"255 255 255 128"
@@ -192,7 +192,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"255 255 255 128"

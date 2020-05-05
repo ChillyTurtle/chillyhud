@@ -13,9 +13,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"BGAnyDarker"
-		"infocus_bgcolor_override" "BGAnyDarker"
-		"outoffocus_bgcolor_override" "BGAnyDarker"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 		
 		"thumbnail_bgcolor"			"BGAnyLight"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-300"

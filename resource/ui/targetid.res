@@ -1,10 +1,10 @@
 "Resource/UI/TargetID.res"
 {
 	
-	"TargetBG3"
+	"TargetBG2"
 	{
 		"ControlName"         "ImagePanel"
-		"fieldName"           "TargetBG3"
+		"fieldName"           "TargetBG2"
 		"xpos"                "0"				//3
 		"ypos"                "0"				//7
 		"zpos"                "-1"
@@ -12,7 +12,7 @@
 		"tall"                "10"			//24
 		"visible"             "1"
 		"enabled"             "1"
-		"fillcolor"           "ChillyHUD-White"
+		"fillcolor"           "ChillyHUD-TransparentWhite"
 	}
 	"TargetIDBG"
 	{
@@ -83,7 +83,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"999"
 		"ypos"			"999"
 		"zpos"			"1"
@@ -103,7 +103,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"50"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -124,7 +124,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"8"
 		"ypos"			"8"	[$WIN32]
 		"zpos"			"1"
@@ -252,7 +252,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"xpos"			"0"
 			"ypos"			"9"
 			"zpos"			"1"

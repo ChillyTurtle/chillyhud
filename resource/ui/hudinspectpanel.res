@@ -41,7 +41,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

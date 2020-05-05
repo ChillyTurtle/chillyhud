@@ -156,7 +156,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel1"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
 		"xpos"			"c-264"
@@ -179,7 +179,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel1Shadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
 		"xpos"			"c-263"
@@ -203,7 +203,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
 		"xpos"			"c-108"
@@ -226,7 +226,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
@@ -250,7 +250,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"west"
 		"xpos"			"c-271"
@@ -272,7 +272,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel1"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
 		"xpos"			"c68"
@@ -295,7 +295,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel1Shadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
 		"xpos"			"c69"
@@ -318,7 +318,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
 		"xpos"			"c8"
@@ -343,7 +343,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
@@ -367,7 +367,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"east"
 		"xpos"			"c140"
@@ -389,7 +389,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%server%"
 		"textAlignment"	"west"
 		"xpos"			"c-271"
@@ -407,7 +407,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeftValue"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%servertime%"
 		"textAlignment"	"west"
 		"xpos"			"c-271"
@@ -498,7 +498,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%spectators%"
 		"textAlignment"	"west"
 		"xpos"			"c-266"
@@ -521,7 +521,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"	"west"
 		"xpos"			"160"
@@ -606,7 +606,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%playername%"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -642,7 +642,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -660,7 +660,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
 		"xpos"			"c0"
@@ -676,7 +676,7 @@
 		
 		if_mvm
 		{
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"fgcolor"		"ChillyHUD-White"
 		}
 	}
@@ -705,7 +705,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"	"center"
 			"xpos"			"237"
@@ -723,7 +723,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DuelingLabelShadow"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"	"center"
 			"xpos"			"238"
@@ -799,7 +799,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC12"
 			}
 			
 			"Score"
@@ -817,7 +817,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC12"
 			}
 			
 			"ScoreBG"
@@ -835,7 +835,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC12"
 				"fgcolor"		"ChillyHUD-TransparentBlack"
 			}
 		}
@@ -886,7 +886,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC12"
 			}
 			
 			"Score"
@@ -904,7 +904,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC12"
 			}
 			
 			"ScoreBG"
@@ -922,7 +922,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC12"
 				"fgcolor"		"ChillyHUD-TransparentBlack"
 			}
 		}
@@ -952,7 +952,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabelValue"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"labelText"		":"
 			"textAlignment"	"center"
 			"xpos"			"70"
@@ -971,7 +971,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills2Value"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -990,7 +990,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths2"
-			"font"			"CodeProLC-AmmoReserve"
+			"font"			"CodeProLC30"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
 			"xpos"			"88"
@@ -1009,7 +1009,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"west"
 			"xpos"			"146"
@@ -1028,7 +1028,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%assists%"
 			"textAlignment"	"west"
 			"xpos"			"212"
@@ -1047,7 +1047,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"	"west"
 			"xpos"			"146"
@@ -1066,7 +1066,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%destruction%"
 			"textAlignment"	"west"
 			"xpos"			"212"
@@ -1085,7 +1085,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"	"west"
 			"xpos"			"146"	
@@ -1104,7 +1104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%captures%"
 			"textAlignment"	"west"
 			"xpos"			"212"	
@@ -1123,7 +1123,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"	"west"
 			"xpos"			"146"	
@@ -1142,7 +1142,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%defenses%"
 			"textAlignment"	"west"
 			"xpos"			"212"	
@@ -1161,7 +1161,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"	"west"
 			"xpos"			"244"
@@ -1180,7 +1180,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Domination2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%dominations%"
 			"textAlignment"	"west"
 			"xpos"			"310"	
@@ -1199,7 +1199,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"	"west"
 			"xpos"			"244"
@@ -1218,7 +1218,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%Revenge%"
 			"textAlignment"	"west"
 			"xpos"			"310"	
@@ -1237,7 +1237,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"	"west"
 			"xpos"			"244"	
@@ -1256,7 +1256,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%healing%"
 			"textAlignment"	"west"
 			"xpos"			"310"	
@@ -1275,7 +1275,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"	"west"
 			"xpos"			"244"	
@@ -1294,7 +1294,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%invulns%"
 			"textAlignment"	"west"
 			"xpos"			"310"	
@@ -1313,7 +1313,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"	
@@ -1332,7 +1332,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%teleports%"
 			"textAlignment"	"west"
 			"xpos"			"408"	
@@ -1351,7 +1351,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"	
@@ -1370,7 +1370,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%headshots%"
 			"textAlignment"	"west"
 			"xpos"			"408"	
@@ -1389,7 +1389,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"
@@ -1408,7 +1408,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%backstabs%"
 			"textAlignment"	"west"	
 			"xpos"			"408"
@@ -1427,7 +1427,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"
@@ -1446,7 +1446,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%bonus%"
 			"textAlignment"	"west"		
 			"xpos"			"408"
@@ -1465,7 +1465,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"west"
 			"xpos"			"440"	
@@ -1484,7 +1484,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		
 			"xpos"			"502"	
@@ -1503,7 +1503,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"west"
 			"xpos"			"440"	
@@ -1522,7 +1522,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		
 			"xpos"			"502"	

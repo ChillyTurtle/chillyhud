@@ -50,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CodeProLC-Meters"
+		"font"					"CodeProLC12"
 		"fgcolor"				"ChillyHUD-White"
 	}
 
@@ -91,7 +91,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CodeProLC-Counter"
+		"font"					"CodeProLC20"
 		"fgcolor"				"ChillyHUD-White"
 	}
 }

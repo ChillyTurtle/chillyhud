@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-TanLight"
 	}								
 }

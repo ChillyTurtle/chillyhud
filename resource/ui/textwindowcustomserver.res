@@ -102,7 +102,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 	}
 	
 	"MenuBG"

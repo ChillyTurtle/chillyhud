@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"BGAnyDarker"
-		"infocus_bgcolor_override" "BGAnyDarker"
-		"outoffocus_bgcolor_override" "BGAnyDarker"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 		
 		"item_xpos_offcenter_a"	"-383"
 		"item_xpos_offcenter_b"	"-233"
@@ -80,7 +80,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"CodeProLC-MetersBig"
+			"font"			"CodeProLC16"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"CodeProLC20"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-310"
@@ -135,7 +135,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeProLC12"
 		"labelText"		"#CurrentlyEquipped"
 		"textAlignment"	"south-west"
 		"xpos"			"9999"
@@ -266,7 +266,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"c-60"
 		"ypos"			"c-80"
 		"zpos"			"0"	
@@ -326,7 +326,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeProLC12"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -345,7 +345,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeProLC12"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -622,7 +622,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeProLC12"
 			"labelText"		"#TauntsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -641,7 +641,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeProLC12"
 			"labelText"		"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"

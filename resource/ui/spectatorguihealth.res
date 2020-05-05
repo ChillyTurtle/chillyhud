@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -125,7 +125,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 	}
 	"PlayerStatusPlayerLevel"

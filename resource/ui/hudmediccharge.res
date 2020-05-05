@@ -20,7 +20,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-TanLight"
 	}
 	
@@ -43,7 +43,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 	}
 	

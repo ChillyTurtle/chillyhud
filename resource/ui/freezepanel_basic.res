@@ -13,12 +13,13 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r200"
-		"ypos"			"0"
+		"ypos"			"r0"
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"BGAnyDark"
+		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -97,7 +98,7 @@
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		"FreezePanelWhiteBG"
+		"FreezePanelBG2"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"FreezePanelWhiteBG"
@@ -108,14 +109,14 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ChillyHUD-White"
+			"fillcolor"		"ChillyHUD-TransparentWhite"
 		}
 		
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC12"
 			"xpos"			"60"
 			"ypos"			"162"
 			"zpos"			"1"
@@ -153,7 +154,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"CodeProLC-MetersBig"
+			"font"			"CodeProLC16"
 			"xpos"			"61"
 			"ypos"			"162"
 			"zpos"			"5"
@@ -233,7 +234,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"CodeProLC-MetersBig"
+				"font"			"CodeProLC16"
 				"xpos"			"39"
 				"ypos"			"10"
 				"zpos"			"6"
@@ -250,7 +251,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel2"
-				"font"			"CodeProLC-MetersBig"
+				"font"			"CodeProLC16"
 				"xpos"			"39"
 				"ypos"			"10"
 				"zpos"			"6"

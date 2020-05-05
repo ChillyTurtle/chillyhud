@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -231,7 +231,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -254,7 +254,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"xpos"			"cs-0.5"
 		"ypos"			"80+1"
 		"wide"			"600"
@@ -290,7 +290,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"CodeProLC-MetersBig"
+		"delta_item_font"		"CodeProLC16"
 
 		if_match
 		{
@@ -306,7 +306,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"CodeProLC-MetersBig"
+			"font"			"CodeProLC16"
 			"fgcolor"		"240 240 240 255"
 			"xpos"			"0"
 			"ypos"			"4"

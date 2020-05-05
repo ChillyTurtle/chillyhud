@@ -61,7 +61,7 @@
 		"enabled"				"1"
 		"labelText"				""
 		"textAlignment"			"south-west"
-		"font"					"ChatFont"
+		"font"					"CodeProLC12"
 		"maxchars"				"-1"
 	}
 }

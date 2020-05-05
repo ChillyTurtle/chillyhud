@@ -41,7 +41,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"ChillyHUD-White"
+		"fillcolor"		"ChillyHUD-TransparentWhite"
 	}
 	
 	"DisguiseStatusBG"
@@ -71,7 +71,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"xpos"			"52"
 		"ypos"			"-4"
 		"zpos"			"1"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"xpos"			"52"
 		"ypos"			"10"
 		"zpos"			"1"

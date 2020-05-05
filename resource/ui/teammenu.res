@@ -62,7 +62,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-White"
 	}
 
@@ -77,7 +77,7 @@
 		"tall"			"25"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"ChillyHUD-White"
@@ -103,7 +103,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -158,7 +158,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"				"4"		// team red
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -213,7 +213,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -240,7 +240,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -281,7 +281,7 @@
 		"brighttext"	"0"
 		"paintbackground""0"
 		"command"		"cancelmenu"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ChillyHUD-White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -305,7 +305,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -349,7 +349,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-White"
 	}
 
@@ -407,7 +407,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"255 255 255 255"
 	}
 	"BlueCountPlayers"
@@ -427,7 +427,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"255 255 255 175"
 	}		
 	
@@ -448,7 +448,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"255 255 255 255"
 	}	
 	"RedCountPlayers"
@@ -468,7 +468,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"255 255 255 175"
 	}	
 	
@@ -554,7 +554,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-White"
 		"centerwrap"	"1"
 	}
@@ -576,7 +576,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"centerwrap"	"1"
 	}
@@ -598,7 +598,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-White"
 		"centerwrap"	"1"
 	}
@@ -620,7 +620,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC-MetersBig"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"centerwrap"	"1"
 		

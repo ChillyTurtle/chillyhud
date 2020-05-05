@@ -9,8 +9,8 @@
 	//--------------------------------------------------------------
 	KnucklesCrosses
 	{
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"b"
 		"controlName"		"CExLabel"
 		"fieldName"	 		"KnucklesCrosses"
@@ -520,7 +520,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"CodeProLC12"
 		
 		"TeamBlue"		"ChillyHUD-BluTeam"
 		"TeamRed"		"ChillyHUD-RedTeam"
@@ -914,14 +914,10 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
+		"xpos"					"9999"
+		"ypos"					"9999"
 		"wide"					"266"
-		"wide_lodef"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
 	}
 	
 	FreezePanel

@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"BGAnyDarker"
+		"bgcolor_override"	"BGAnyDark"
 	}
 	"MainBackground"
 	{
@@ -104,7 +104,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC10"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-282"
@@ -120,7 +120,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC10"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-127"
@@ -137,7 +137,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"CodeProLC-Meters"
+				"font"			"CodeProLC10"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -299,7 +299,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"CodeProLC-Counter"
+			"font"			"CodeProLC20"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"xpos"			"c-285"
@@ -325,7 +325,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarBG1B"
@@ -342,7 +342,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1A"
@@ -383,7 +383,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -400,7 +400,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -417,7 +417,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -444,7 +444,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG2B"
@@ -461,7 +461,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar2A"
@@ -502,7 +502,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -519,7 +519,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -536,7 +536,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -563,7 +563,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG3B"
@@ -580,7 +580,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar3A"
@@ -621,7 +621,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -638,7 +638,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -655,7 +655,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -682,7 +682,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG4B"
@@ -699,7 +699,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar4A"
@@ -740,7 +740,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -757,7 +757,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -774,7 +774,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -801,7 +801,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG5B"
@@ -818,7 +818,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar5A"
@@ -859,7 +859,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -876,7 +876,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -893,7 +893,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -920,7 +920,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG6B"
@@ -937,7 +937,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar6A"
@@ -978,7 +978,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -995,7 +995,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1012,7 +1012,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1039,7 +1039,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG7B"
@@ -1056,7 +1056,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar7A"
@@ -1097,7 +1097,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1114,7 +1114,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1131,7 +1131,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1158,7 +1158,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG8B"
@@ -1175,7 +1175,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar8A"
@@ -1216,7 +1216,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1233,7 +1233,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1250,7 +1250,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1277,7 +1277,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG9B"
@@ -1294,7 +1294,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar9A"
@@ -1335,7 +1335,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1352,7 +1352,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1369,7 +1369,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1400,7 +1400,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"CodeProLC-Counter"
+			"font"			"CodeProLC20"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
@@ -1426,7 +1426,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"
@@ -1450,7 +1450,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1467,7 +1467,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1484,7 +1484,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1501,7 +1501,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1518,7 +1518,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1535,7 +1535,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1552,7 +1552,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1569,7 +1569,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1586,7 +1586,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1603,7 +1603,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1620,7 +1620,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1637,7 +1637,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1654,7 +1654,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1671,7 +1671,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1688,7 +1688,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1705,7 +1705,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1722,7 +1722,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1739,7 +1739,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1756,7 +1756,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1773,7 +1773,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1790,7 +1790,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1807,7 +1807,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1824,7 +1824,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1841,7 +1841,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1858,7 +1858,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1875,7 +1875,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1892,7 +1892,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1909,7 +1909,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1926,7 +1926,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1943,7 +1943,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"CodeProLC-Meters"
+			"font"			"CodeProLC10"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1975,7 +1975,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC10"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"xpos"			"c-245"

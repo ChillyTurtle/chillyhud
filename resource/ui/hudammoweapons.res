@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -76,7 +76,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"2"
 		"ypos"			"2"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"CodeProLC-AmmoReserve"
+		"font"			"CodeProLC30"
 		"fgcolor"		"ChillyHUD-Teal"
 		"xpos"			"130"
 		"ypos"			"-5"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"CodeProLC-AmmoReserve"
+		"font"			"CodeProLC30"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"132"
 		"ypos"			"-4"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -142,7 +142,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"CodeProLC-HPSmall"
+		"font"			"CodeProLC48"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"2"
 		"ypos"			"2"
