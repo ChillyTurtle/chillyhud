@@ -1,9 +1,11 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate HealthBuffBG		Alpha		"200"	Accel 0.0 0.2
-	Animate HealthBuffBG		Alpha		"200"	Accel 0.2 0.4
-	
+	Animate HealthBuffBG				Alpha		"150"				Accel 0.0 0.2
+	Animate HealthBuffBG				Alpha		"0"				Accel 0.2 0.4
+	Animate PlayerStatusHealthValueShadow		FgColor		"ChillyHUD-BrightGreen"		Accel 0.0 0.2
+	Animate PlayerStatusHealthValueShadow		FgColor		"ChillyHUD-BrightGreen"		Accel 0.2 0.4
+
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -17,7 +19,9 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	
 	Animate HealthBuffBG				Alpha	"0"			Accel 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		FgColor		"ChillyHUD-TransparentBlack"		Accel 0.0 0.0
 }
 
 //===========================================
@@ -25,8 +29,12 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate HealthLowBG					Alpha	"200"		Accel 0.0 0.2
-	Animate HealthLowBG					Alpha	"0"		Accel 0.2 0.4
+	Animate HealthLowBG				Alpha		"150"			Accel 0.0 0.2
+	Animate HealthLowBG				Alpha		"0"			Accel 0.2 0.4
+	Animate PlayerStatusHealthValueShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
+	Animate PlayerStatusHealthValueShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
+	
+	
 	RunEvent HudHealthDyingPulseLoop			0.4
 }
 
@@ -39,6 +47,7 @@ event HudHealthDyingPulseLoop
 event HudHealthDyingPulseStop
 {
 	Animate HealthLowBG		Alpha		"0"		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueShadow		FgColor		"ChillyHUD-TransparentBlack"		Accel 0.0 0.0
 
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
@@ -48,8 +57,15 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate AmmoLowBG		Alpha		"200"				Accel 0.0 0.2
-	Animate AmmoLowBG		Alpha		"0"					Accel 0.2 0.4
+	Animate AmmoLowBG			Alpha		"150"			Accel 0.0 0.2
+	Animate AmmoLowBG			Alpha		"0"			Accel 0.2 0.4
+	
+	Animate AmmoInClipShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
+	Animate AmmoInReserveShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
+	Animate AmmoNoClipShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
+	Animate AmmoInClipShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
+	Animate AmmoInReserveShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
+	Animate AmmoNoClipShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
 	
 	RunEvent HudLowAmmoPulseLoop	0.4
 }
@@ -64,6 +80,10 @@ event HudLowAmmoPulseStop
 {
 	Animate AmmoLowBG		Alpha		"0"					Accel 0.0 0.0
 
+	Animate AmmoInClipShadow		FgColor		"ChillyHUD-TransparentBlack"		Accel 0.0 0.0
+	Animate AmmoInReserveShadow		FgColor		"ChillyHUD-TransparentBlack"		Accel 0.0 0.0
+	Animate AmmoNoClipShadow		FgColor		"ChillyHUD-TransparentBlack"		Accel 0.0 0.0
+
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 }
@@ -74,7 +94,7 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"ChillyHUD-TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"ChillyHUD-White"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"TanDarker"					Linear 0.3 0.4
 	
 	Animate	ChargeMeter 	FgColor		"ChillyHUD-BrightGreen"		Linear 0.0 0.1
@@ -94,7 +114,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"ChillyHUD-TanLight"			Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"ChillyHUD-White"			Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"ChillyHUD-BrightOrange"	Linear 0.0 0.0001
 }
 
