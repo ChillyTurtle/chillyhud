@@ -508,8 +508,6 @@
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
 		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -527,8 +525,8 @@
 		"IconColor"		"ChillyHUD-White"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"Black"		[$WIN32]
-		"LocalBackgroundColor"	"ChillyHUD-TanLight"	[$WIN32]
+		"BaseBackgroundColor"	"ChillyHUD-TransparentBlack"		[$WIN32]
+		"LocalBackgroundColor"	"ChillyHUD-TransparentWhite"	[$WIN32]
 	}
 
 	HudVehicle

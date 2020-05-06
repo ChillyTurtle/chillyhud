@@ -1,0 +1,76 @@
+Huds and people I stole things from. (by things, I mean hud elements)
+I changed some stuff though.
+
+-----------------
+KNUCKLESCROSSHAIR -Knuckles
+-----------------
+Custom Crosshairs
+
+-------
+ANTSHUD -AntWan
+-------
+Some colors
+loadoutpresetpanel.res
+scoreboard.res
+mvmscoreboard.res
+winpanel.res
+
+----
+AHUD -Nokk
+----
+Some Colors (just one, actually)
+craftingpanel.res
+backpackpanel.res
+inspectionpanel.res
+charinfoarmorysubpanel.res
+charinfoloadoutsubpanel.res
+charinfopanel.res
+classselection.res
+teammenu.res
+textwindow.res
+textwindowcustomserver.res
+mapinfomenu.res
+
+-----
+NUHUD -Nokk
+-----
+build_menu
+destroy_menu
+dsiguise_menu
+
+-----
+AXHUD -Alex_f
+-----
+hudmatchstatus.res
+
+-------------
+SOLARLIGHTHUD -SolarLight
+-------------
+Some Materials
+controlpointicon.res
+controlpointcountdown.res
+controlpointprogress.res
+
+----------
+SHOUNICHUD -shounic
+----------
+Some Colors
+Some Materials
+targetid.res
+hudobjectiverobotdestruction.res
+objectivestatusescort.res
+objectivestatusmultipleescort.res
+hudobjectiveflagpanel.res
+
+-------
+FLAWHUD -CriticalFlaw
+-------
+Rick May Tribute Character -uberchain
+
+--------------
+Special Thanks
+--------------
+raysfire, doodle, Flame, JarateKing
+
+Guides
+

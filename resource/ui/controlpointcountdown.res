@@ -4,11 +4,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabel"
-		"font"			"CodeProLC12"
-		"xpos"			"1"
+		"font"			"CodeProLC16"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"32"
+		"wide"			"30"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -17,7 +17,7 @@
 		"wrap"			"0"
 		"labelText"		"%capturetime%"
 		"textAlignment"		"center"
-		"fgcolor"		"ChillyHUD-Black"
+		"fgcolor"		"235 226 202 255"
 		"bgcolor"		"235 226 202 255"
 	}
 }

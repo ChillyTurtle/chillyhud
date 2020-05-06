@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"65"
 		"ypos"			"0"
@@ -57,7 +57,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"25"
 		"ypos"			"0"
@@ -73,7 +73,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"CodeProLC-Counter"
+		"font"			"CodeProLC20"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"0"
 		"ypos"			"-1"
@@ -115,7 +115,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC16"
 		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"0"
 		"ypos"			"0"

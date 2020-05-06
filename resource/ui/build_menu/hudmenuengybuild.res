@@ -44,7 +44,7 @@
 		"tall"			"175"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"ChillyHUD-TransparentBlack"
+		"bgcolor_override"		"ChillyHUD-TransparentWhite"
 
 		"pin_to_sibling"	"TitleBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -61,14 +61,14 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"ChillyHUD-White"
+		"bgcolor_override"		"ChillyHUD-TransparentBlack"
 	}
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeProLC-Meters"
-		"fgcolor"		"ChillyHUD-Black"
+		"font"			"CodeProLC12"
+		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -88,7 +88,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"CodeProLC-Meters"
+		"font"			"CodeProLC12"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"0"
 		"ypos"			"-1"

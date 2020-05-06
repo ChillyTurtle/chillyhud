@@ -75,6 +75,16 @@ Scheme
 			}
 		}
 		
+		"CodeProLC14"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
 		"CodeProLC12"
 		{
 			"1"
