@@ -67,7 +67,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
 		"xpos"			"0"
 		"ypos"			"-1"

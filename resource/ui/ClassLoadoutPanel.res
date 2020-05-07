@@ -80,7 +80,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"CodeProLC16"
+			"font"			"ChillyFont16"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"CodeProLC16"
+		"font"			"ChillyFont16"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"CodeProLC20"
+		"font"			"ChillyFont20"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-310"
@@ -135,7 +135,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"labelText"		"#CurrentlyEquipped"
 		"textAlignment"	"south-west"
 		"xpos"			"9999"
@@ -266,7 +266,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"c-60"
 		"ypos"			"c-80"
 		"zpos"			"0"	
@@ -326,7 +326,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -345,7 +345,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -622,7 +622,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"labelText"		"#TauntsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -641,7 +641,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"labelText"		"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"

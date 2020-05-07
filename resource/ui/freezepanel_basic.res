@@ -13,7 +13,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r200"
-		"ypos"			"r0"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
@@ -116,7 +116,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"xpos"			"60"
 			"ypos"			"162"
 			"zpos"			"1"
@@ -154,7 +154,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"CodeProLC16"
+			"font"			"ChillyFont16"
 			"xpos"			"61"
 			"ypos"			"162"
 			"zpos"			"5"
@@ -234,7 +234,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"CodeProLC16"
+				"font"			"ChillyFont16"
 				"xpos"			"39"
 				"ypos"			"10"
 				"zpos"			"6"
@@ -251,7 +251,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel2"
-				"font"			"CodeProLC16"
+				"font"			"ChillyFont16"
 				"xpos"			"39"
 				"ypos"			"10"
 				"zpos"			"6"

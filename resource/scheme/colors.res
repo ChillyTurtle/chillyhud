@@ -19,6 +19,7 @@ Scheme
 		"ChillyHUD-RedTeam"				"240 98 146 255"
 		"ChillyHUD-Gray"				"100 100 100 255"
 		"ChillyHUD-TransparentWhite"	"255 255 255 150"
+		"ChillyHUD-Magenta"				"255 0 150 255"
 
 		// ANTSHUD COLORS
 		"BGAnyLight"				"40 40 40 255"		// Lighter Color for Any BG

@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"58"
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
@@ -51,15 +51,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"	[$WIN32]
-		"xpos_minmode"	"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"ypos_minmode"	"9999"	[$WIN32]
+		"xpos"			"98"	[$WIN32]
+		"xpos_minmode"	"98"	[$WIN32]
+		"ypos"			"33"	[$WIN32]
+		"ypos_minmode"	"33"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
+		"wide_minmode"	"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
+		"tall_minmode"	"55"	[$WIN32]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC48"
+		"font"			"ChillyFont48"
 		"fgcolor"		"ChillyHUD-White"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -89,6 +89,23 @@
 		"xpos"			"2"
 		"xpos_minmode"	"2"
 		"ypos"			"2"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"ChillyFont48"
+		"fgcolor"		"ChillyHUD-Black"
+	}
+	"PlayerStatusHealthValueShadow2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow2"
+		"xpos"			"3"
+		"xpos_minmode"	"3"
+		"ypos"			"3"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"120"
@@ -96,8 +113,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC48"
-		"fgcolor"		"ChillyHUD-TransparentBlack"
+		"font"			"ChillyFont48"
+		"fgcolor"		"ChillyHUD-Black"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

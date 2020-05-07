@@ -409,7 +409,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -595,7 +595,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		

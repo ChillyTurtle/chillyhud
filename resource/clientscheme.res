@@ -2,8 +2,9 @@
 #base "scheme/basesettings.res"
 #base "scheme/borders.res"
 #base "scheme/colors.res"
-#base "scheme/fonts.res"
 #base "scheme/crosshairs.res"
+#base "../customization/fonts.res"
+
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -153,31 +154,61 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
-		}	
-		"8" 
-		{
-			"font" "resource/fonts/Lato-Regular.ttf"
-			"name" "Lato Regular"
-		}	
-		"9" 
-		{
-			"font" "resource/fonts/Lato-Bold.ttf"
-			"name" "Lato Bold"
-		}	
-		"10" 
-		{
-			"font" "resource/fonts/Lato-Light.ttf"
-			"name" "Lato Light"
 		}
-		"11" 
+		"8" 
 		{
 			"font" "resource/fonts/CodeProLC.otf"
 			"name" "Code-Pro-LC"
 		}
-		"12" 
+		"9" 
 		{
 			"font" "resource/fonts/CodeProBold.otf"
-			"name" "Code_Pro-Bold"
+			"name" "Code-Pro-Bold"
+		}
+		"10" 
+		{
+			"font" "resource/fonts/Product Sans Regular.ttf"
+			"name" "Product Sans"
+		}
+		"11" 
+		{
+			"font" "resource/fonts/Product Sans Bold.ttf"
+			"name" "Product Sans Bold"
+		}
+		"12" 
+		{
+			"font" "resource/fonts/Roboto-Regular.ttf"
+			"name" "Roboto"
+		}
+		"13" 
+		{
+			"font" "resource/fonts/Roboto-Bold.ttf"
+			"name" "Roboto Bold"
+		}
+		"14" 
+		{
+			"font" "resource/fonts/Roboto-Medium.ttf"
+			"name" "Roboto Medium"
+		}
+		"15" 
+		{
+			"font" "resource/fonts/Asimov.otf"
+			"name" "Asimov"
+		}
+		"16" 
+		{
+			"font" "resource/fonts/Lato-Regular.ttf"
+			"name" "Lato Regular"
+		}
+		"17" 
+		{
+			"font" "resource/fonts/Lato-Bold.ttf"
+			"name" "Lato Bold"
+		}
+		"18" 
+		{
+			"font" "resource/fonts/Lato-Light.ttf"
+			"name" "Lato Light"
 		}
 	}
 }

@@ -38,7 +38,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CodeProLC12"
+		"font"					"ChillyFont12"
 		"fgcolor_override"				"255 255 255 255"
 	}
 
@@ -93,7 +93,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"CodeProLC20"
+			"font"			"ChillyFont20"
 			"fgcolor"		"ChillyHUD-White"
 		}
 		"NumPipesLabelDropshadow"
@@ -114,7 +114,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"CodeProLC20"
+			"font"			"ChillyFont20"
 			"fgcolor"		"ChillyHUD-TransparentBlack"
 		}		
 	}
@@ -148,7 +148,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"CodeProLC20"
+			"font"			"ChillyFont20"
 			"fgcolor"		"ChillyHUD-White"
 		}
 		"NumPipesLabelDropshadow"
@@ -170,7 +170,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"CodeProLC20"
+			"font"			"ChillyFont20"
 			"fgcolor"		"ChillyHUD-TransparentBlack"
 		}			
 	}				

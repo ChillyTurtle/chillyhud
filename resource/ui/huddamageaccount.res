@@ -6,11 +6,11 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"ChillyHUD-BrightGreen"
+		"PositiveColor"			"ChillyHUD-Green"
 		"NegativeColor"			"ChillyHUD-BrightOrange"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"CodeProLC-DamageNumbers"
-		"delta_item_font_big"	"CodeProLC-DamageNumbers"
+		"delta_item_font"		"ChillyFont-DamageNumbers"
+		"delta_item_font_big"	"ChillyFont-DamageNumbers"
 	}
 	"DamageAccountValue"
 	{
@@ -26,7 +26,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
 		"fgcolor"		"ChillyHUD-BrightOrange"
-		"font"			"CodeProLC-DamageNumbers"
+		"font"			"ChillyFont-DamageNumbers"
 	}
 	
 	"DamageAccountValueBG"
@@ -43,6 +43,6 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
 		"fgcolor"		"ChillyHUD-TransparentBlack"
-		"font"			"CodeProLC-DamageNumbers"
+		"font"			"ChillyFont-DamageNumbers"
 	}
 }

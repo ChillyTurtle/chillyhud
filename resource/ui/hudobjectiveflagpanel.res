@@ -159,7 +159,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"CodeProLC20"
+		"font"			"ChillyFont20"
 		"fgcolor"		"ChillyHUD-White"
 		
 		"if_hybrid"
@@ -190,7 +190,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"CodeProLC20"
+		"font"			"ChillyFont20"
 		"fgcolor"		"ChillyHUD-White"	
 		
 		"if_hybrid"
@@ -255,7 +255,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 		
 		"if_hybrid"

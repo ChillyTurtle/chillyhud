@@ -43,7 +43,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor_override"	"ChillyHUD-White"
 	}
 	
@@ -65,7 +65,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -101,7 +101,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -137,7 +137,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -173,7 +173,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -209,7 +209,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -245,7 +245,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -281,7 +281,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -317,7 +317,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -353,7 +353,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -390,7 +390,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"CodeProLC12"
+		"font"				"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -425,7 +425,7 @@
 		"labelText"		"&E   Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -456,7 +456,7 @@
 		"labelText"		"&C  Cancel"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"paintbackground"	"0"
 		
 		"FgColor"					"ChillyHUD-White"
@@ -788,7 +788,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}	
 	
@@ -808,7 +808,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}		
 	
@@ -828,7 +828,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}			
 	
@@ -848,7 +848,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}				
 	
@@ -868,7 +868,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}					
 	
@@ -888,7 +888,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}						
 	
@@ -908,7 +908,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}							
 	
@@ -928,7 +928,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}						
 	
@@ -948,7 +948,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"ChillyHUD-White"
 	}								
 	

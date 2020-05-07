@@ -518,7 +518,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"CodeProLC12"
+		"TextFont"		"ChillyFont12"
 		
 		"TeamBlue"		"ChillyHUD-BluTeam"
 		"TeamRed"		"ChillyHUD-RedTeam"

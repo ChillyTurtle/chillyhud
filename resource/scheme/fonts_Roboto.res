@@ -11,105 +11,92 @@ Scheme
 		// if a font fails to load then the subsequent fonts will replace
 		
 		// CHILLYHUD FONTS
-		
+	
+		// ROBOTO
 
-		// LATO REGULAR
-		
-		"LatoRegular12"
+		"ChillyFont56"
 		{
 			"1"
 			{
-				"name"		"Lato Regular"
-				"tall"		"12"
+				"name"		"Roboto"
+				"tall"		"56"
 				"antialias" "1"
 			}
 		}
-
-		// CODE PRO LC
-
-		"CodeProLC64"
+		"ChillyFont48"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
-				"tall"		"64"
-				"antialias" "1"
-			}
-		}
-		"CodeProLC48"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
-		"CodeProLC30"
+		"ChillyFont30"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"30"
 				"antialias" "1"
 			}
 		}
 		
-		"CodeProLC20"
+		"ChillyFont20"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"20"
 				"antialias" "1"
 			}
 		}
 		
-		"CodeProLC16"
+		"ChillyFont16"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		"CodeProLC14"
+		"ChillyFont14"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"14"
 				"antialias" "1"
 			}
 		}
 		
-		"CodeProLC12"
+		"ChillyFont12"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		"CodeProLC10"
+		"ChillyFont10"
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Roboto"
 				"tall"		"10"
 				"antialias" "1"
 			}
 		}
 		
-		"CodeProLC-DamageNumbers"
+		"ChillyFont-DamageNumbers"
 		{
 			"1"
 			{
-				"name"		 "Code-Pro-LC"
+				"name"		 "Roboto"
 				"tall" 		 "22"
 				"additive"	 "0"
 				"antialias"	 "1"

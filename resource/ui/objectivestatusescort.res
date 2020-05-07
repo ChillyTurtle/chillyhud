@@ -180,7 +180,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"xpos"			"195"
 			"ypos"			"0"
 			"zpos"			"60"
@@ -411,7 +411,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"xpos"			"195"
 			"ypos"			"0"
 			"zpos"			"60"

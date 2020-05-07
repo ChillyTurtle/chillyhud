@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"RedSolid"
 		"xpos"			"65"
 		"ypos"			"0"
@@ -72,7 +72,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CodeProLC16"
+		"font"			"ChillyFont16"
 		"fgcolor"		"RedSolid"
 		"xpos"			"0"
 		"ypos"			"0"

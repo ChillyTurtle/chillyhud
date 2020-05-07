@@ -15,7 +15,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"CodeProLC20"
+			"font"			"ChillyFont20"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"

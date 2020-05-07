@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"BGAnyDark"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"CodeProLC20"
+		"title_font"	"ChillyFont20"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -132,7 +132,7 @@
 		{
 			"textinsetx"		"0"
 			"textinsety"		"-5"
-			"font"				"CodeProLC16"
+			"font"				"ChillyFont16"
 			"selectedcolor"		"ChillyHUD-White"
 			"unselectedcolor"	"BGAnyLight"	
 			"defaultBgColor_override"	"Blank"
@@ -157,7 +157,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"CodeProLC16"
+		"font"			"ChillyFont16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

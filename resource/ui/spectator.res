@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"CodeProLC16"
+		"font"			"ChillyFont16"
 	}
 	
 	"BuyBackLabel"
@@ -184,7 +184,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"CodeProLC10"
+			"font"			"ChillyFont10"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"17"
 		"ypos"			"2"
 		"zpos"			"2"
@@ -110,7 +110,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"250"
 		"ypos"			"2"
 		"zpos"			"2"
@@ -182,7 +182,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"32"
 		"ypos"			"15"
@@ -254,7 +254,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"87"
 		"ypos"			"15"
@@ -326,7 +326,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel3"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"142"
 		"ypos"			"15"
@@ -398,7 +398,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"197"
 		"ypos"			"15"
@@ -470,7 +470,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel5"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"252"
 		"ypos"			"15"
@@ -542,7 +542,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"307"
 		"ypos"			"15"
@@ -614,7 +614,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"362"
 		"ypos"			"15"
@@ -686,7 +686,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"417"
 		"ypos"			"15"

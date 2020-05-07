@@ -107,7 +107,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"CodeProLC14"
+		"font"			"ChillyFont14"
 		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"4"

@@ -83,7 +83,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"999"
 		"ypos"			"999"
 		"zpos"			"1"
@@ -103,7 +103,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"50"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -124,7 +124,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"8"
 		"ypos"			"8"	[$WIN32]
 		"zpos"			"1"
@@ -252,7 +252,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"CodeProLC12"
+			"font"			"ChillyFont12"
 			"xpos"			"0"
 			"ypos"			"9"
 			"zpos"			"1"

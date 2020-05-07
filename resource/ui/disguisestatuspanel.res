@@ -71,7 +71,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"CodeProLC16"
+		"font"			"ChillyFont16"
 		"xpos"			"52"
 		"ypos"			"-4"
 		"zpos"			"1"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"CodeProLC12"
+		"font"			"ChillyFont12"
 		"xpos"			"52"
 		"ypos"			"10"
 		"zpos"			"1"

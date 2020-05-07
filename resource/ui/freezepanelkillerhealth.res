@@ -79,7 +79,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ChillyHUD-BrightGreen"	
+		"fillcolor"		"ChillyHUD-Green"	
 		"alpha"			"0"
 	}	
 	"PlayerHealthLowBG"
@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC16"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"font"			"ChillyFont16"
+		"fgcolor"		"ChillyHUD-White"
 	}								
 }

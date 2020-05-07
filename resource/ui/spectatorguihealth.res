@@ -79,7 +79,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ChillyHUD-BrightGreen"	
+		"fillcolor"		"ChillyHUD-Green"	
 		"alpha"			"0"
 	}	
 	"PlayerHealthLowBG"
@@ -109,8 +109,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC20"
-		"fgcolor"		"ChillyHUD-TanLight"
+		"font"			"ChillyFont20"
+		"fgcolor"		"ChillyHUD-White"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -125,8 +125,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CodeProLC20"
-		"fgcolor"		"ChillyHUD-TransparentBlack"
+		"font"			"ChillyFont20"
+		"fgcolor"		"ChillyHUD-Green"
 	}
 	"PlayerStatusPlayerLevel"
 	{
