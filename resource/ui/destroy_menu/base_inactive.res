@@ -31,7 +31,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"ChillyFont12""
+		"font"			"ChillyFont12"
 		"fgcolor"		"127 127 127 255"
 		"xpos"			"25"
 		"ypos"			"0"

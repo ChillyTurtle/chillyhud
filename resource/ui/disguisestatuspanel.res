@@ -34,7 +34,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"DisguiseBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"3"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"20"
@@ -49,7 +49,7 @@
 		"ControlName"         "CTFImagePanel"
 		"fieldName"           "DisguiseStatusBG"
 		"xpos"                "0"				//3
-		"ypos"                "20"				//7
+		"ypos"                "0"				//7
 		"zpos"                "0"
 		"wide"					"200"	//
 		"tall"                "3"			//24
@@ -73,7 +73,7 @@
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"ChillyFont16"
 		"xpos"			"52"
-		"ypos"			"-4"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"20"
@@ -94,7 +94,7 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"ChillyFont12"
 		"xpos"			"52"
-		"ypos"			"10"
+		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"10"
@@ -114,7 +114,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"3"
 		"wide"			"40"
 		"tall"			"20"
 		"visible"		"1"

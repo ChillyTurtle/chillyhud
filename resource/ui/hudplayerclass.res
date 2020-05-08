@@ -6,7 +6,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"r460"
 		"ypos_minmode"	"20"
 		"zpos"			"1"
 		"wide"			"f0"
