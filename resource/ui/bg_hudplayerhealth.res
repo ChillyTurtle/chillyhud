@@ -80,7 +80,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ChillyFont48"
-		"fgcolor"		"ChillyHUD-White"
+		"fgcolor"		"Health Value"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -128,7 +128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"		
-		"fillcolor"		"ChillyHUD-Green"
+		"fillcolor"		"Health Buff"
 		"alpha"			"0"
 	}
 	"HealthLowBG"
@@ -143,7 +143,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"		
-		"fillcolor"		"255 0 0 255"
+		"fillcolor"		"Health Low"
 		"alpha"			"0"
 	}
 	"PlayerStatusBleedImage"

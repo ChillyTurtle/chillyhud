@@ -3,8 +3,8 @@ event HudHealthBonusPulse
 {
 	Animate HealthBuffBG				Alpha		"150"				Accel 0.0 0.2
 	Animate HealthBuffBG				Alpha		"0"				Accel 0.2 0.4
-	Animate PlayerStatusHealthValueShadow		FgColor		"ChillyHUD-Green"		Accel 0.0 0.2
-	Animate PlayerStatusHealthValueShadow		FgColor		"ChillyHUD-Green"		Accel 0.2 0.4
+	Animate PlayerStatusHealthValueShadow		FgColor		"Health Buff"		Accel 0.0 0.2
+	Animate PlayerStatusHealthValueShadow		FgColor		"Health Buff"		Accel 0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -60,12 +60,12 @@ event HudLowAmmoPulse
 	Animate AmmoLowBG			Alpha		"150"			Accel 0.0 0.2
 	Animate AmmoLowBG			Alpha		"0"			Accel 0.2 0.4
 	
-	Animate AmmoInClipShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
-	Animate AmmoInReserveShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
-	Animate AmmoNoClipShadow		FgColor		"255 0 0 255"		Accel 0.0 0.2
-	Animate AmmoInClipShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
-	Animate AmmoInReserveShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
-	Animate AmmoNoClipShadow		FgColor		"255 0 0 255"		Accel 0.2 0.4
+	Animate AmmoInClipShadow		FgColor		"Ammo Low"		Accel 0.0 0.2
+	Animate AmmoInReserveShadow		FgColor		"Ammo Low"		Accel 0.0 0.2
+	Animate AmmoNoClipShadow		FgColor		"Ammo Low"		Accel 0.0 0.2
+	Animate AmmoInClipShadow		FgColor		"Ammo Low"		Accel 0.2 0.4
+	Animate AmmoInReserveShadow		FgColor		"Ammo Low"		Accel 0.2 0.4
+	Animate AmmoNoClipShadow		FgColor		"Ammo Low"		Accel 0.2 0.4
 	
 	RunEvent HudLowAmmoPulseLoop	0.4
 }
@@ -94,11 +94,11 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeMeter 	FgColor		"ChillyHUD-Magenta"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"ChillyHUD-Magenta"					Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"Fully Charged"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"Fully Charged"					Linear 0.3 0.4
 
-	Animate	ChargeLabelShadow 	FgColor		"ChillyHUD-Magenta"		Linear 0.0 0.1
-	Animate	ChargeLabelShadow 	FgColor		"ChillyHUD-Magenta"					Linear 0.3 0.4
+	Animate	ChargeLabelShadow 	FgColor		"Fully Charged"		Linear 0.0 0.1
+	Animate	ChargeLabelShadow 	FgColor		"Fully Charged"					Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -114,7 +114,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabelShadow 	FgColor		"ChillyHUD-Magenta"			Linear 0.0 0.0001
+	Animate	ChargeLabelShadow 	FgColor		"Fully Charged"			Linear 0.0 0.0001
 	Animate	ChargeLabelShadow 	FgColor		"ChillyHUD-Black"	Linear 0.0 0.0001
 }
 

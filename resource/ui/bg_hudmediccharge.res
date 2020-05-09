@@ -21,7 +21,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"ChillyFont48"
-		"fgcolor"		"ChillyHUD-White"
+		"fgcolor"		"Charge Percent"
 	}
 	
 	"ChargeLabelShadow"
@@ -90,7 +90,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"ChillyHUD-Magenta"
+		"fgcolor_override"	"Charging"
 		"bgcolor_override"	"ChillyHUD-TransparentBlack"
 		"alpha"			"150"
 	}		

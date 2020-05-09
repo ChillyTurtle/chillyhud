@@ -2,11 +2,26 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
+		// nühud Colors
+		//-----------------------------------------
+		
+		"nüBase"				"46 138 55 255"
+		"nüLightBase"			"0 126 140 215"
+		
+		"nüWhite"				"240 240 240 255"
+		"nüOffWhite"			"160 160 160 255"
+		"nüGrey"				"40 40 40 255"
+		"nüDarkGrey"			"30 30 30 255"
+		"nüBlack"				"6 6 6 255"
+
+		"PanelBG"				"15 15 15 215"
+		"LightPanelBG"			"15 15 15 140"
+		"DarkPanelBG"			"15 15 15 255"
+		
+		//-----------------------------------------
+
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"
@@ -25,10 +40,10 @@ Scheme
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
 
-	    "TFMediumBrown"		"69 64 58 255"
+	    "TFMediumBrown"				"69 64 58 255"
 
 	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGSelected"		"131 121 104 150"
 	    
 	    "Blank"				"0 0 0 0"
 	    
@@ -36,234 +51,147 @@ Scheme
 		"ControlBG"			"76 88 68 255"		// background color of controls
 		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
+		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"TFTanLightDark"	// the lit side of a control
-		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
+		Border.Bright					"Blank"		// the lit side of a control
+		Border.Dark						"Blank"		// the dark/unlit side of a control
+		Border.Selection				"Blank"		// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TFDarkBrown"
-		Button.BgColor					"TFTanLight"
-		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
-		Button.FocusBorderColor			"TransparentBlack"
+		Button.TextColor				"nüWhite"
+		Button.BgColor					"nüDarkGrey"
+		Button.ArmedTextColor			"nüWhite"
+		Button.ArmedBgColor				"nüBase"
+		Button.DepressedTextColor		"nüWhite"
+		Button.DepressedBgColor			"nüBase"	
+		Button.FocusBorderColor			"Blank"
 		
-		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
+		CheckButton.TextColor			"nüOffWhite"
+		CheckButton.SelectedTextColor	"nüWhite"
+		CheckButton.BgColor				"nüGrey"
+		CheckButton.HighlightFgColor	"nüWhite"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
+		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.Check				"nüWhite"			// color of the check itself
+		CheckButton.DisabledBgColor	    "Blank"
 
-		ToggleButton.SelectedTextColor	"TFTextBright"
+		ToggleButton.SelectedTextColor	"nüWhite"
 		
-		ComboBoxButton.ArrowColor		"TFTanLight"
-		ComboBoxButton.ArmedArrowColor	"TFTanBright"
-		ComboBoxButton.BgColor			"Blank"
+		ComboBoxButton.ArrowColor		"nüWhite"
+		ComboBoxButton.ArmedArrowColor	"nüWhite"
+		ComboBoxButton.BgColor			"nüDarkGrey"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
-		RadioButton.TextColor		"TFTextBright"
-		RadioButton.SelectedTextColor	"TFTextBright"
-		RadioButton.ArmedTextColor	"TFTextMedium"
+		RadioButton.TextColor			"nüOffWhite"
+		RadioButton.SelectedTextColor	"nüWhite"
+		RadioButton.ArmedTextColor		"nüWhite"
+
+		PropertySheet.TextColor				"nüOffWhite"
+		PropertySheet.SelectedTextColor		"nüWhite"
+			
+		Frame.BgColor					"PanelBG"
+		Frame.OutOfFocusBgColor			"LightPanelBG"
+		FrameGrip.Color1				"Blank"
+		FrameGrip.Color2				"Blank"
+		FrameTitleButton.FgColor		"nüWhite"
+		FrameTitleBar.Font				"Default"
+		FrameTitleBar.TextColor			"nüWhite"
+		FrameTitleBar.DisabledTextColor	"nüOffWhite"
+		FrameTitleBar.BgColor 			"nüBase"
 		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
-		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"TFDarkBrown"
-		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
-		FrameTitleBar.TextColor			"TFTanBright"
-		FrameTitleBar.DisabledTextColor	"TFTanLight"
-		
-		Label.TextDullColor				"TFTextDull"
-		Label.TextColor					"TFTextBright"
-		Label.TextBrightColor			"TFTextBright"
-		Label.SelectedTextColor			"TFTextBright"
+		Label.TextDullColor				"nüOffWhite"
+		Label.TextColor					"nüWhite"
+		Label.TextBrightColor			"nüWhite"
+		Label.SelectedTextColor			"nüWhite"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
+		Label.DisabledFgColor1			"nüOffWhite"	
 		Label.DisabledFgColor2			"Blank"	
 		
-		ListPanel.TextColor					"TFTextBright"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
-		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
+		ListPanel.TextColor					"nüWhite"
+		ListPanel.TextBgColor				"nüDarkGrey"
+		ListPanel.BgColor					"LightPanelBG"
+		ListPanel.SelectedTextColor			"nüWhite"
+		ListPanel.SelectedBgColor			"nüBase"
+		ListPanel.SelectedOutOfFocusBgColor	"nüOffWhite"
+		ListPanel.EmptyListInfoTextColor	"nüOffWhite"
+
+		SectionedListPanel.TextColor			"nüWhite"
+		SectionedListPanel.BrightTextColor		"nüWhite"
+		SectionedListPanel.BgColor				"nüDarkGrey"
+		SectionedListPanel.SelectedTextColor			"nüWhite"
+		SectionedListPanel.SelectedBgColor				"nüBase"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"nüOffWhite"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"nüBase"
+
+		MainMenu.TextColor			"nüOffWhite"
+		MainMenu.ArmedTextColor		"nüWhite"
 		MainMenu.Inset				"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
+		Menu.TextInset			"6"
+		Menu.TextColor			"nüWhite"
+		Menu.BgColor			"nüGrey"
+		Menu.ArmedTextColor		"nüWhite"
+		Menu.ArmedBgColor		"nüLightBase"
 		Menu.DividerColor		"BorderDark"
 		
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
+		ScrollBarButton.FgColor				"nüWhite"
+		ScrollBarButton.BgColor				"nüDarkGrey"
+		ScrollBarButton.ArmedFgColor		"nüWhite"
+		ScrollBarButton.ArmedBgColor		"nüLightBase"
+		ScrollBarButton.DepressedFgColor	"nüWhite"
+		ScrollBarButton.DepressedBgColor	"nüBase"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor				"nüGrey"		// this isn't really used
+		ScrollBarSlider.FgColor				"nüDarkGrey"	// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
+		Slider.NobColor				"nüBase"		
+		Slider.TextColor			"nüWhite"
+		Slider.TrackColor			"nüGrey"
 		Slider.DisabledTextColor1	"TFTextMediumDark"
         Slider.DisabledTextColor2	"Blank"
+
+		RichText.TextColor				"nüWhite"
+		RichText.BgColor				"LightPanelBG"
+		RichText.SelectedTextColor		"nüWhite"
+		RichText.SelectedBgColor		"nüBase"
 		
-		TextEntry.TextColor			        "TFTextBright"
-		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		Console.TextColor			"100 255 100 255"
+		Console.DevTextColor		"nüWhite"
+
+		TextEntry.TextColor 			"nüWhite"
+		TextEntry.BgColor				"LightPanelBG"
+		TextEntry.DisabledTextColor	    "nüOffWhite"
+		TextEntry.DisabledBgColor		"Blank"
+		TextEntry.SelectedBgColor	    "nüLightBase"
+		TextEntry.SelectedTextColor		"nüWhite"
+		TextEntry.CursorColor			"nüOffWhite"
+
+		Tooltip.TextColor		"nüWhite"
+		Tooltip.BgColor			"nüDarkGrey"
 	}
-	
-	Fonts
+
+	Borders
 	{
-		"MainMenuFont"
-		{
-			"1"	[$WIN32]
-			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"MenuLarge"
-		{
-			"1"	[$X360]
-			{
-				"tall_hidef"		"24"
-			}
-		}
+		BaseBorder		SubtleBorder
+		ButtonBorder	RaisedBorder
+		ComboBoxBorder	DepressedBorder
+		MenuBorder		SubtleBorder
+		BrowserBorder	DepressedBorder
+		PropertySheetBorder	RaisedBorder
 
-		"ServerBrowserTitle"
+		FrameBorder
 		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 		}
-
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
-			}
-		}
-
-		"ServerBrowserSmall"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
-		
-				
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitleLarge	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
-			}
-		}
-
 	}
-	
+
 	CustomFontFiles
 	{
 		"6" 

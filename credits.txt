@@ -42,6 +42,7 @@ dsiguise_menu
 AXHUD -Alex_f
 -----
 hudmatchstatus.res
+sourcescheme.res
 
 -------------
 SOLARLIGHTHUD -SolarLight

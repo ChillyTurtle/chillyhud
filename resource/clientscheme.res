@@ -1,20 +1,11 @@
-
+#base "../customization/colors.res"
 #base "scheme/basesettings.res"
 #base "scheme/borders.res"
 #base "scheme/colors.res"
 #base "scheme/crosshairs.res"
 #base "../customization/fonts.res"
 
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
+
 Scheme
 {
 
@@ -209,6 +200,11 @@ Scheme
 		{
 			"font" "resource/fonts/Lato-Light.ttf"
 			"name" "Lato Light"
+		}
+		"19" 
+		{
+			"font" "resource/fonts/Surface-Medium.otf"
+			"name" "Surface-Medium"
 		}
 	}
 }

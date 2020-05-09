@@ -4,3 +4,4 @@
 //#base "../resource/scheme/fonts_CodeProLC.res" 	//Code Pro LC Font
 //#base "../resource/scheme/fonts_Roboto.res" 		//Roboto Font
 #base "../resource/scheme/fonts_Asimov.res" 		//Asimov Font
+//#base "../resource/scheme/fonts_SurfaceMedium.res" 		//Surface Medium Font

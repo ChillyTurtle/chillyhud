@@ -79,7 +79,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ChillyHUD-Green"	
+		"fillcolor"		"Health Buff"	
 		"alpha"			"0"
 	}	
 	"PlayerHealthLowBG"
@@ -93,7 +93,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 0 0 255"
+		"fillcolor"		"Health Low"
 		"alpha"			"0"		
 	}	
 	"PlayerStatusHealthValue"
@@ -110,6 +110,6 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ChillyFont16"
-		"fgcolor"		"ChillyHUD-White"
+		"fgcolor"		"Health Value"
 	}								
 }
