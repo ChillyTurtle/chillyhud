@@ -126,7 +126,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ChillyFont20"
-		"fgcolor"		"Health Buff"
+		"fgcolor"		"ChillyHUD-Black"
 	}
 	"PlayerStatusPlayerLevel"
 	{

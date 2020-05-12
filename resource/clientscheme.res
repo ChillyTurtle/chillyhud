@@ -206,5 +206,10 @@ Scheme
 			"font" "resource/fonts/Surface-Medium.otf"
 			"name" "Surface-Medium"
 		}
+		"20"
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}		
 	}
 }
